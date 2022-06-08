@@ -6,7 +6,7 @@ import MyService from './MyService';
 
 const Home = () => {
     return (
-        <div>
+        <div className='text-gray-300'>
             <AboutMeBanner />
             <AboutMe />
             <MyService />
