@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from './AboutMe';
 import AboutMeBanner from './AboutMeBanner';
+import ContactMe from './ContactMe';
 import MyProjects from './MyProjects';
 import MyService from './MyService';
 import MySummary from './MySummary';
@@ -13,6 +14,7 @@ const Home = () => {
             <AboutMe />
             <MyService />
             <MyProjects />
+            <ContactMe />
         </div>
     );
 };
