@@ -1,10 +1,10 @@
 import React from 'react';
-import AboutMe from './AboutMe';
+import AboutMeBanner from './AboutMeBanner';
 
 const Home = () => {
     return (
         <div>
-            <AboutMe />
+            <AboutMeBanner />
         </div>
     );
 };
