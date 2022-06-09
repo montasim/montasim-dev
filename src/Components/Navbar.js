@@ -6,8 +6,7 @@ const Navbar = () => {
         <li><a>About Me</a></li>
         <li><a>Portfolio</a></li>
         <li><a>Contact</a></li>
-        <li><a>Blog</a></li>
-        <li><a className='btn btn-primary rounded-full text-white'>Resume</a></li>
+        <li><a className='btn btn-primary rounded-full text-white' href='https://a-coders-diary.web.app/'>Blog</a></li>
     </>;
 
     return (
@@ -23,7 +22,7 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-                <a class="btn btn-ghost text-xl">Montasim Dev</a>
+                <a class="btn btn-ghost text-2xl">Montasim Dev</a>
             </div>
 
             <div class="navbar-center">

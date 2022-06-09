@@ -9,8 +9,7 @@ const Footer = () => {
                 <a>About Me</a>
                 <a>Portfolio</a>
                 <a>Contact</a>
-                <a>Blog</a>
-                <a>Resume</a>
+                <a href='https://a-coders-diary.web.app/'>Blog</a>
             </div>
             <div>
                 <div class="grid grid-flow-col gap-4 text-3xl">
