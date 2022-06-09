@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactMe = () => {
     return (
-        <div class="hero min-h-screen bg-gray-900">
+        <div id='contact' class="hero min-h-screen bg-gray-900">
             <div class="hero-content flex-col lg:flex-row-reverse justify-between">
                 <div class="text-center lg:text-left lg:w-5/12">
                     <h1 class="text-5xl font-bold">Get in Touch</h1>

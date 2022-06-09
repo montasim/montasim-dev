@@ -5,7 +5,7 @@ import { SiMongodb, SiExpress, SiReact, SiJavascript, SiCplusplus, SiPython, SiH
 
 const AboutMe = () => {
     return (
-        <div class="hero min-h-screen bg-gray-900">
+        <div id='about' class="hero min-h-screen bg-gray-900">
             <div class="hero-content flex-col lg:flex-row justify-between">
                 <img src={professionalPhoto} class="max-w-sm rounded-lg shadow-2xl" />
                 <div className='lg:w-7/12 '>

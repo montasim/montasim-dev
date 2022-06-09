@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const navbarItems = <>
-        <li><a>Home</a></li>
-        <li><a>About Me</a></li>
-        <li><a>Portfolio</a></li>
-        <li><a>Contact</a></li>
-        <li><a className='btn btn-primary rounded-full text-white' href='https://a-coders-diary.web.app/'>Blog</a></li>
+        <li><a href='#about'>About Me</a></li>
+        <li><a href='#services'>Services</a></li>
+        <li><a href='#portfolio'>Portfolio</a></li>
+        <li><a href='#contact'>Contact</a></li>
+        <li><a className='btn btn-primary rounded-full text-white' href='https://a-coders-diary.web.app/' target='_blank' rel='noreferrer'>Blog</a></li>
     </>;
 
     return (
