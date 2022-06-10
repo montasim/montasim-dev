@@ -14,12 +14,12 @@ const MyService = () => {
 
                 <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
                     <a
-                        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-primary/10 hover:border-primary/10"
                         href="/services/digital-campaigns"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="w-10 h-10 text-pink-500"
+                            class="w-10 h-10 text-primary"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -45,12 +45,12 @@ const MyService = () => {
                     </a>
 
                     <a
-                        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-primary/10 hover:border-primary/10"
                         href="/services/digital-campaigns"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="w-10 h-10 text-pink-500"
+                            class="w-10 h-10 text-primary"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -76,12 +76,12 @@ const MyService = () => {
                     </a>
 
                     <a
-                        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-primary/10 hover:border-primary/10"
                         href="/services/digital-campaigns"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="w-10 h-10 text-pink-500"
+                            class="w-10 h-10 text-primary"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -107,12 +107,12 @@ const MyService = () => {
                     </a>
 
                     <a
-                        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-primary/10 hover:border-primary/10"
                         href="/services/digital-campaigns"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="w-10 h-10 text-pink-500"
+                            class="w-10 h-10 text-primary"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -138,12 +138,12 @@ const MyService = () => {
                     </a>
 
                     <a
-                        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-primary/10 hover:border-primary/10"
                         href="/services/digital-campaigns"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="w-10 h-10 text-pink-500"
+                            class="w-10 h-10 text-primary"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -169,12 +169,12 @@ const MyService = () => {
                     </a>
 
                     <a
-                        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-primary/10 hover:border-primary/10"
                         href="/services/digital-campaigns"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="w-10 h-10 text-pink-500"
+                            class="w-10 h-10 text-primary"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -202,7 +202,7 @@ const MyService = () => {
 
                 <div class="mt-12 text-center">
                     <a
-                        class="inline-flex items-center px-8 py-3 mt-8 text-white bg-pink-600 border border-pink-600 rounded hover:bg-transparent active:text-pink-500 focus:outline-none focus:ring"
+                        class="inline-flex items-center px-8 py-3 mt-8 text-white bg-primary border border-primary rounded hover:bg-transparent active:text-primary focus:outline-none focus:ring"
                         href="/get-started"
                     >
                         <span class="text-sm font-medium"> Get Started </span>
