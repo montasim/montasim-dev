@@ -5,7 +5,6 @@ import { CgWebsite } from 'react-icons/cg';
 
 const MyProject = ({ project }) => {
     const navigate = useNavigate();
-    const { _id } = useParams();
     const { projectCategory, projectName, projectDescription, liveWebsiteLink, clientSideCodeLink, serverSideCodeLink, technologyUsed, projectImg, projectStartDate, projectEndDate } = project;
 
     return (
@@ -58,7 +57,7 @@ const MyProject = ({ project }) => {
                 </dl>
 
                 <div className="flex justify-between items-center mt-6">
-                    <button onClick={() => navigate(`/products/${_id}`)} className="btn btn-primary btn-sm text-white">Details</button>
+                    <button onClick={() => navigate(`/my-projects/${projectName}`)} className="btn btn-primary btn-sm text-white">Details</button>
                     <p className='text-sm'>Type: {projectCategory}</p>
                 </div>
             </div>
