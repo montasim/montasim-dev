@@ -1,0 +1,38 @@
+[
+    {
+        "projectCategory": "Full-Stack",
+        "projectName": "Tools Manufacturer Website",
+        "projectDescription": "Jantrik is a tools manufacturer website. Here user can create an account with email and password. User can also use social media like Google to login. After creating the account user is redirected to the page from where he was taken to login page. User can place order, they can add blogs and reviews. User can delete product from cart. User can update their profile.",
+        "liveWebsiteLink": "https://jantrik-b5cde.web.app/",
+        "clientSideCodeLink": "https://github.com/montasim/manufacturer-website-client",
+        "serverSideCodeLink": "https://github.com/montasim/manufacturer-website-server",
+        "technologyUsed": "React, Express.js MongoDB, Firebase, JWT",
+        "projectImg": "https://i.ibb.co/Jkcmbf9/56793-RIDGID-UC60-BG-Crimp-Head-72dpi.jpg",
+        "projectStartDate": "",
+        "projectEndDate": ""
+    },
+    {
+        "projectCategory": "Full-Stack",
+        "projectName": "Warehouse Management System",
+        "projectDescription": "POSDash is an inventory management system website. Here user can create an account with email and password. User can also use social media like Google and GitHub to login. After creating the account user is redirected to the page from where he was taken to login page. User can add items to inventory, they can update items stock. User can delete items from inventory. User can add items to their profile. These items can be viewed from My Items page. User can delete their items.",
+        "liveWebsiteLink": "https://posdash-37746.web.app/",
+        "clientSideCodeLink": "https://github.com/montasim/warehouse-management-client",
+        "serverSideCodeLink": "https://github.com/montasim/warehouse-management-server",
+        "technologyUsed": "React, Express.js MongoDB, Firebase, JWT",
+        "projectImg": "https://i.ibb.co/WVBrwsY/57573-RIDGID-RE600-Crimp-Tool-Right-72dpi.jpg",
+        "projectStartDate": "",
+        "projectEndDate": ""
+    },
+    {
+        "projectCategory": "Full-Stack",
+        "projectName": "A Coders Diary",
+        "projectDescription": "This a blog site. We the developer face many problems in our daily life. Every time we need to search Google or, StackOverflow to solve those problems. As human we often forget those problem time to time. Whenever user will find a solution of a prblem he can post the solution in this blog. So, next time it will be easier for him to solve similar problem. This is the motivation for this projects.",
+        "liveWebsiteLink": "https://a-coders-diary.web.app/",
+        "clientSideCodeLink": "https://github.com/montasim/a-coders-diary",
+        "serverSideCodeLink": "https://github.com/montasim/a-coders-diary-server",
+        "technologyUsed": "React, Express.js MongoDB, Firebase",
+        "projectImg": "https://i.ibb.co/xhJ1vTT/52078-Swiv-L-Punch-No-Dies-72dpi.jpg",
+        "projectStartDate": "",
+        "projectEndDate": ""
+    }
+]

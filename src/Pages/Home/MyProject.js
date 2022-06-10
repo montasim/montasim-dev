@@ -1,39 +1,66 @@
 import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
+import { BsCode } from 'react-icons/bs';
+import { CgWebsite } from 'react-icons/cg';
 
-const MyProject = () => {
+const MyProject = ({ project }) => {
     const navigate = useNavigate();
     const { _id } = useParams();
+    const { projectCategory, projectName, projectDescription, liveWebsiteLink, clientSideCodeLink, serverSideCodeLink, technologyUsed, projectImg, projectStartDate, projectEndDate } = project;
 
     return (
         <div
-            class="relative block border border-gray-100 rounded-xl"
+            className="block p-4 rounded-lg shadow-lg hover:shadow-primary/50 border border-gray-400 w-96"
         >
             <img
-                loading="lazy"
-                alt="Build Your Own Drone"
-                class="object-contain w-full h-56 rounded-xl"
-                src="https://www.hyperui.dev/photos/toy-1.jpeg"
+                alt={projectName + 'image'}
+                src={projectImg}
+                className="object-cover h-56 rounded-md w-full"
             />
 
-            <div class="p-6">
-                <p class="text-sm font-medium text-gray-400">
-                    Project Type: Full Stack
-                </p>
+            <div className="mt-4">
+                <div className='h-44'>
+                    <p className="text-sm text-gray-400 mt-10">Tech: {technologyUsed}</p>
+                    <p className="font-medium text-2xl mt-1">{projectName}</p>
+                    <p className='mt-4'>{projectDescription.length > 200 ? projectDescription?.slice(0, 196) + ' ...' : projectDescription}</p>
+                </div>
 
-                <h5 class="mt-1 text-lg font-bold">
-                    Project Name:
-                </h5>
+                <dl className="flex items-center mt-12 space-x-8 text-xs">
+                    <a href={liveWebsiteLink} className="sm:inline-flex sm:items-center sm:shrink-0">
+                        <CgWebsite className='text-xl text-secondary' />
 
-                <button onClick={() => navigate(`/project-details/${_id}`)}
-                    name="add"
-                    type="button"
-                    class="flex items-center justify-center w-full px-8 py-4 mt-4 bg-primary rounded-xl"
-                >
-                    <span class="text-sm font-medium">
-                        Details
-                    </span>
-                </button>
+                        <div className="sm:ml-1 mt-1.5 sm:mt-0">
+                            <dd className="font-medium">
+                                Live Website
+                            </dd>
+                        </div>
+                    </a>
+
+                    <a href={clientSideCodeLink} className="sm:flex sm:items-center sm:shrink-0">
+                        <BsCode className='text-2xl text-secondary' />
+
+                        <div className="sm:ml-1 mt-1.5 sm:mt-0">
+                            <dd className="font-medium">
+                                Client Code
+                            </dd>
+                        </div>
+                    </a>
+
+                    <a href={serverSideCodeLink} className="sm:inline-flex sm:items-center sm:shrink-0">
+                        <BsCode className='text-2xl text-secondary' />
+
+                        <div className="sm:ml-1 mt-1.5 sm:mt-0">
+                            <dd className="font-medium">
+                                Server Code
+                            </dd>
+                        </div>
+                    </a>
+                </dl>
+
+                <div className="flex justify-between items-center mt-6">
+                    <button onClick={() => navigate(`/products/${_id}`)} className="btn btn-primary btn-sm text-white">Details</button>
+                    <p className='text-sm'>Type: {projectCategory}</p>
+                </div>
             </div>
         </div>
     );

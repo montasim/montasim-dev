@@ -1,30 +1,45 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import MyProject from './MyProject';
 
 
 const MyProjects = () => {
-    return (
-        <div data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom" id='portfolio' class="hero bg-gray-900 pt-20">
-            <div class="hero-content text-center">
-                <div class="w-full">
-                    <h2 class="relative inline-block px-4 text-3xl font-bold text-center text-white uppercase">
-                        My Portfolio
-                    </h2>
-                    <div class="max-w-screen-xl px-4 py-8 mx-auto">
-                        <div class="grid grid-cols-1 md:grid-cols-2 mt-8 lg:grid-cols-3 gap-x-4 gap-y-8">
+    const [projects, setProjects] = useState([]);
 
-                            <MyProject />
-                            <MyProject />
-                            <MyProject />
-                            <MyProject />
-                            <MyProject />
-                            <MyProject />
-                        </div>
+    useEffect(() => {
+        fetch('projectsData.json')
+            .then(res => res.json())
+            .then(data => setProjects(data));
+    }, [projects]);
+
+    return (
+        <section data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+            <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 sm:py-24">
+                <div className="max-w-xl mx-auto text-center">
+                    <div className='flex items-center justify-center'>
+                        <p className='text-4xl mr-4' />
+                        <h2 className="text-4xl font-bold sm:text-3xl text-center uppercase">
+                            My Portfolio
+                        </h2>
                     </div>
+
+                    <p className="max-w-lg mx-auto mt-4 text-gring-offset-warm-gray-500">
+                        Some of my best project is displayed here.
+                    </p>
+                </div>
+
+                <div data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                    className="grid grid-cols-1 gap-8 mt-16 sm:grid-cols-2 lg:grid-cols-3 sm:gap-16"
+                >
+                    {
+                        projects?.slice(-6).map((project, index) => <MyProject key={index} project={project} />)
+                    }
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
