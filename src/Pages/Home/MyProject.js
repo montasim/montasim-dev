@@ -1,6 +1,10 @@
 import React from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
 
 const MyProject = () => {
+    const navigate = useNavigate();
+    const { _id } = useParams();
+
     return (
         <div
             class="relative block border border-gray-100 rounded-xl"
@@ -21,7 +25,7 @@ const MyProject = () => {
                     Project Name:
                 </h5>
 
-                <button
+                <button onClick={() => navigate(`/project-details/${_id}`)}
                     name="add"
                     type="button"
                     class="flex items-center justify-center w-full px-8 py-4 mt-4 bg-primary rounded-xl"
