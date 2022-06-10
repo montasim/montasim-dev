@@ -9,7 +9,7 @@
     "aos": "^2.3.4",
     "daisyui": "^2.15.2",
     "emailjs-com": "^3.2.0",
-    "firebase": "^9.8.2",
+    "firebase": "^9.8.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.4.0",
