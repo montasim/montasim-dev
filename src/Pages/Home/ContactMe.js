@@ -33,7 +33,8 @@ const ContactMe = () => {
     };
 
     return (
-        <div id='contact' class="hero min-h-screen bg-gray-900">
+        <div data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom" id='contact' class="hero min-h-screen bg-gray-900">
             <div class="hero-content flex-col lg:flex-row-reverse justify-between">
                 <div class="text-center lg:text-left lg:w-5/12">
                     <h1 class="text-5xl font-bold">Get in Touch</h1>

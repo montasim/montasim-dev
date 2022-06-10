@@ -2,7 +2,10 @@ import React from 'react';
 
 const MyService = () => {
     return (
-        <section id='services' class="text-white bg-gray-900">
+        <section data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" id='services' class="text-white bg-gray-900">
             <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
                 <div class="max-w-lg mx-auto text-center">
                     <h2 class="text-3xl font-bold sm:text-4xl uppercase">My services</h2>

@@ -4,7 +4,8 @@ import MyProject from './MyProject';
 
 const MyProjects = () => {
     return (
-        <div id='portfolio' class="hero bg-gray-900 pt-20">
+        <div data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" id='portfolio' class="hero bg-gray-900 pt-20">
             <div class="hero-content text-center">
                 <div class="w-full">
                     <h2 class="relative inline-block px-4 text-3xl font-bold text-center text-white uppercase">

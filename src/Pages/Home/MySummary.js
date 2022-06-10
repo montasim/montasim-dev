@@ -2,7 +2,9 @@ import React from 'react';
 
 const MySummary = () => {
     return (
-        <section class="text-center">
+        <section data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500" class="text-center">
             <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
                 <ul class="grid grid-cols-2 gap-4 border-2 border-primary/40 rounded-xl lg:grid-cols-4">
                     <li class="p-8">

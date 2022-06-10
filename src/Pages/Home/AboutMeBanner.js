@@ -3,7 +3,9 @@ import professionalPhoto from '../../assets/images/SHUVO Transparent BG.png';
 
 const AboutMeBanner = () => {
     return (
-        <div class="hero min-h-screen bg-gray-900">
+        <div data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine" class="hero min-h-screen bg-gray-900">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <img src={professionalPhoto} class="max-w-sm rounded-lg shadow-2xl" />
                 <div>

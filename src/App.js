@@ -6,6 +6,9 @@ import Home from "./Pages/Home/Home";
 import { Routes, Route } from "react-router-dom";
 import NotFound from "./Pages/NotFound/NotFound";
 import ProjectDetails from './Pages/ProjectDetails/ProjectDetails';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 function App() {
   return (
