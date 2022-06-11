@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const navbarItems = <>
-        <li><a href='#about'>About Me</a></li>
-        <li><a href='#services'>Services</a></li>
-        <li><a href='#portfolio'>Portfolio</a></li>
+        <li><a href='#about'>About</a></li>
+        <li><a href='#services'>Skills</a></li>
+        <li><a href='#portfolio'>Projects</a></li>
         <li><a href='#contact'>Contact</a></li>
         <li><a className='btn btn-primary rounded-full text-white' href='https://a-coders-diary.web.app/' target='_blank' rel='noreferrer'>Blog</a></li>
     </>;
