@@ -7,7 +7,6 @@ import { useParams } from 'react-router-dom';
 
 const ProjectDetails = () => {
     const { _id } = useParams();
-    console.log(_id);
     const [projectDetails, setProjectDetails] = useState([]);
 
     useEffect(() => {
