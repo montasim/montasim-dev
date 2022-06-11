@@ -5,7 +5,9 @@ import { SiMongodb, SiExpress, SiReact, SiJavascript, SiCplusplus, SiPython, SiH
 
 const About = () => {
     return (
-        <section
+        <section data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
             class="grid grid-cols-1 overflow-hidden rounded-lg group sm:grid-cols-3 mx-4 lg:mx-36"
         >
             <div class="relative">

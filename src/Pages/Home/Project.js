@@ -9,7 +9,7 @@ const Project = ({ project }) => {
 
     return (
         <div
-            className="block p-4 rounded-lg shadow-lg hover:shadow-primary/50 border border-gray-400 w-96"
+            className="block p-4 rounded-lg shadow-lg hover:shadow-primary/50 border border-gray-400 w-96 mx-auto"
         >
             <img
                 alt={projectName + 'image'}
