@@ -2,6 +2,7 @@ import React from 'react';
 import professionalPhoto from '../../assets/images/SHUVO Transparent BG.png';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import { BsLinkedin, BsGithub, BsFacebook } from 'react-icons/bs';
 
 const Introduction = () => {
     const particlesInit = async (main) => {
@@ -104,6 +105,11 @@ const Introduction = () => {
                     <p className='mb-2 text-xl'>Hello 👋, I am</p>
                     <h1 class="text-5xl font-bold uppercase">Montasim Al Mamun</h1>
                     <h5 className='text-2xl mt-4 uppercase'>Full Stack Web Developer</h5>
+                    <div class="flex gap-4 text-3xl mt-6">
+                        <a href='https://www.linkedin.com/in/montasim' target='_blank' rel='noreferrer'><BsLinkedin /></a>
+                        <a href='https://github.com/montasim' target='_blank' rel='noreferrer'><BsGithub /></a>
+                        <a href='https://www.facebook.com/montasimmamun/' target='_blank' rel='noreferrer'><BsFacebook /></a>
+                    </div>
                     <p class="py-6 lg:w-8/12 text-[20px]">I am a proficient MERN stack developer who is passionate about developing websites and web-based applications.</p>
                     <a class="btn btn-primary" href='https://drive.google.com/file/d/1sR4CxyIYw1uIesJHWaERKDGOBwfOVUcH/view?usp=sharing' target='_blank'>Download My Resume</a>
                 </div>
