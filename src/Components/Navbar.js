@@ -23,7 +23,7 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-                <a class="btn btn-ghost text-2xl">Montasim Dev</a>
+                <Link class="btn btn-ghost text-2xl" to='/'>Montasim Dev</Link>
             </div>
 
             <div class="navbar-center">
