@@ -11,11 +11,7 @@ const About = () => {
             class="grid grid-cols-1 overflow-hidden rounded-lg group sm:grid-cols-3 mx-4 lg:mx-36"
         >
             <div class="relative">
-                <img
-                    class="object-cover w-full h-full"
-                    src={professionalPhoto}
-                    alt=""
-                />
+                <img src={professionalPhoto} class="max-w-sm rounded-lg shadow-2xl mx-auto" alt='montasim pic' />
             </div>
 
             <div class="p-8 sm:col-span-2">
