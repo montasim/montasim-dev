@@ -5,10 +5,10 @@ import { SiMongodb, SiExpress, SiReact, SiJavascript, SiCplusplus, SiPython, SiH
 
 const About = () => {
     return (
-        <section data-aos="fade-down"
+        <section id='about' data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500"
-            class="grid grid-cols-1 overflow-hidden rounded-lg group sm:grid-cols-3 mx-4 lg:mx-36"
+            class="grid grid-cols-1 overflow-hidden rounded-lg group sm:grid-cols-3 mx-4 lg:mx-36 min-h-screen"
         >
             <div class="relative">
                 <img src={professionalPhoto} class="max-w-sm rounded-lg shadow-2xl mx-auto" alt='montasim pic' />

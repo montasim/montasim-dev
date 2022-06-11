@@ -100,7 +100,7 @@ const Introduction = () => {
                     detectRetina: true,
                 }}
             />
-            <div class="hero-content flex-col lg:flex-row-reverse">
+            <div class="hero-content min-h-screen flex-col lg:flex-row-reverse" id='introduction'>
                 <img src={professionalPhoto} class="max-w-sm rounded-lg shadow-2xl" alt='montasim pic' />
                 <div>
                     <p className='mb-2 text-xl'>Hello 👋, I am</p>

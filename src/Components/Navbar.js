@@ -1,17 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
     const navbarItems = <>
-        <li><a href='#about'>About</a></li>
-        <li><a href='#skills'>Skills</a></li>
-        <li><a href='#projects'>Projects</a></li>
-        <li><a href='#contact'>Contact</a></li>
+        <li><Link to='/#introduction'>Home</Link></li>
+        <li><Link to='/#about'>About</Link></li>
+        <li><Link to='/#skills'>Skills</Link></li>
+        <li><Link to='/#projects'>Projects</Link></li>
+        <li><Link to='/#contact'>Contact</Link></li>
         <li><a className='btn btn-primary rounded-full text-white' href='https://a-coders-diary.web.app/' target='_blank' rel='noreferrer'>Blog</a></li>
     </>;
 
     return (
-        <div class="navbar bg-gray-900 uppercase p-8">
+        <div class="navbar sticky top-0 z-50 bg-gray-900 uppercase p-8">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
