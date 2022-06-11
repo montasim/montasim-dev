@@ -1,20 +1,20 @@
 import React from 'react';
-import AboutMe from './AboutMe';
-import AboutMeBanner from './AboutMeBanner';
-import ContactMe from './ContactMe';
-import MyProjects from './MyProjects';
-import MyService from './MyService';
-import MySummary from './MySummary';
+import About from './About';
+import Introduction from './Introduction';
+import Contact from './Contact';
+import Projects from './Projects';
+import Skills from './Skills';
+import Summary from './Summary';
 
 const Home = () => {
     return (
         <div className='text-gray-300'>
-            <AboutMeBanner />
-            <MySummary />
-            <AboutMe />
-            <MyService />
-            <MyProjects />
-            <ContactMe />
+            <Introduction />
+            <Summary />
+            <About />
+            <Skills />
+            <Projects />
+            <Contact />
         </div>
     );
 };

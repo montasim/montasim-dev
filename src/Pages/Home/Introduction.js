@@ -1,7 +1,7 @@
 import React from 'react';
 import professionalPhoto from '../../assets/images/SHUVO Transparent BG.png';
 
-const AboutMeBanner = () => {
+const Introduction = () => {
     return (
         <div data-aos="fade-right"
             data-aos-offset="300"
@@ -20,4 +20,4 @@ const AboutMeBanner = () => {
     );
 };
 
-export default AboutMeBanner;
+export default Introduction;

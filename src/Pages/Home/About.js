@@ -3,9 +3,9 @@ import professionalPhoto from '../../assets/images/SHUVO Transparent BG.png';
 import { FaNodeJs } from 'react-icons/fa';
 import { SiMongodb, SiExpress, SiReact, SiJavascript, SiCplusplus, SiPython, SiHtml5, SiCss3, SiTailwindcss, SiBootstrap, SiTypescript, SiJsonwebtokens, SiGit, SiFirebase, SiHeroku, SiNetlify, SiVisualstudiocode } from 'react-icons/si';
 
-const AboutMe = () => {
+const About = () => {
     return (
-        <div data-aos="fade-left"
+        <section data-aos="fade-left"
             data-aos-anchor="#example-anchor"
             data-aos-offset="500"
             data-aos-duration="500" id='about' class="hero min-h-screen bg-gray-900">
@@ -37,8 +37,8 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
-        </div >
+        </section >
     );
 };
 
-export default AboutMe;
+export default About;

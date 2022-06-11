@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MySummary = () => {
+const Summary = () => {
     return (
         <aside className='text-white bg-gray-900 pb-14'>
             <div className='max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8'>
@@ -27,4 +27,4 @@ const MySummary = () => {
     );
 };
 
-export default MySummary;
+export default Summary;

@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { BsCode } from 'react-icons/bs';
 import { CgWebsite } from 'react-icons/cg';
 
-const MyProject = ({ project }) => {
+const Project = ({ project }) => {
     const navigate = useNavigate();
     const { projectCategory, projectName, projectDescription, liveWebsiteLink, clientSideCodeLink, serverSideCodeLink, technologyUsed, projectImg, projectStartDate, projectEndDate } = project;
 
@@ -65,4 +65,4 @@ const MyProject = ({ project }) => {
     );
 };
 
-export default MyProject;
+export default Project;

@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import { toast } from 'react-toastify';
 
-const ContactMe = () => {
+const Contact = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -33,8 +33,9 @@ const ContactMe = () => {
     };
 
     return (
-        <div data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom" id='contact' class="hero min-h-screen bg-gray-900">
+        <section data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500" id='contact' class="hero min-h-screen bg-gray-900">
             <div class="hero-content flex-col lg:flex-row-reverse justify-between">
                 <div class="text-center lg:text-left lg:w-5/12">
                     <h1 class="text-5xl font-bold">Get in Touch</h1>
@@ -66,8 +67,8 @@ const ContactMe = () => {
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
-export default ContactMe;
+export default Contact;
