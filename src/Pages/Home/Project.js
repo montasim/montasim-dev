@@ -9,7 +9,7 @@ const Project = ({ project }) => {
 
     return (
         <div
-            className="block p-4 rounded-lg shadow-lg hover:shadow-primary/50 border border-gray-400 w-96 mx-auto"
+            className="block p-4 rounded-lg shadow-lg hover:shadow-primary/50 border border-gray-800 w-96 mx-auto"
         >
             <img
                 alt={projectName + 'image'}
@@ -24,7 +24,7 @@ const Project = ({ project }) => {
                     <p className='mt-4'>{projectDescription.length > 200 ? projectDescription?.slice(0, 196) + ' ...' : projectDescription}</p>
                 </div>
 
-                <dl className="flex items-center mt-12 space-x-8 text-xs">
+                <dl className="flex items-center mt-20 space-x-8 text-xs">
                     <a href={liveWebsiteLink} className="sm:inline-flex sm:items-center sm:shrink-0">
                         <CgWebsite className='text-xl text-secondary' />
 
@@ -57,7 +57,7 @@ const Project = ({ project }) => {
                 </dl>
 
                 <div className="flex justify-between items-center mt-6">
-                    <button onClick={() => navigate(`/project-details/${projectName}`)} className="btn btn-primary btn-sm text-white">Details</button>
+                    <button onClick={() => navigate(`/project-details/${projectName}`)} className="btn btn-primary btn-md text-white">Details</button>
                     <p className='text-sm'>Type: {projectCategory}</p>
                 </div>
             </div>
