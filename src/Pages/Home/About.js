@@ -5,9 +5,8 @@ import { SiMongodb, SiExpress, SiReact, SiJavascript, SiCplusplus, SiPython, SiH
 
 const About = () => {
     return (
-        <a
+        <section
             class="grid grid-cols-1 overflow-hidden rounded-lg group sm:grid-cols-3 mx-4 lg:mx-36"
-            href=""
         >
             <div class="relative">
                 <img
@@ -43,7 +42,7 @@ const About = () => {
                     <SiGit className='text-4xl' />
                 </div>
             </div>
-        </a>
+        </section>
     );
 };
 
