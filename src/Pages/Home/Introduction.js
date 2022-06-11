@@ -27,12 +27,8 @@ const Introduction = () => {
                 init={particlesInit}
                 loaded={particlesLoaded}
                 options={{
-                    background: {
-                        color: {
-                            value: "#111827",
-                        },
-                    },
-                    fpsLimit: 120,
+
+                    fpsLimit: 60,
                     interactivity: {
                         events: {
                             onClick: {
@@ -46,6 +42,12 @@ const Introduction = () => {
                             resize: true,
                         },
                         modes: {
+                            bubble: {
+                                distance: 400,
+                                duration: 2,
+                                opacity: 0.8,
+                                size: 40,
+                            },
                             push: {
                                 quantity: 4,
                             },
@@ -57,13 +59,13 @@ const Introduction = () => {
                     },
                     particles: {
                         color: {
-                            value: "#ffffff",
+                            value: "#fff",
                         },
                         links: {
-                            color: "#ffffff",
+                            color: "#fff",
                             distance: 150,
                             enable: true,
-                            opacity: 0.5,
+                            opacity: 0.1,
                             width: 1,
                         },
                         collisions: {
@@ -72,17 +74,15 @@ const Introduction = () => {
                         move: {
                             direction: "none",
                             enable: true,
-                            outModes: {
-                                default: "bounce",
-                            },
+                            outMode: "bounce",
                             random: false,
-                            speed: 6,
+                            speed: .5,
                             straight: false,
                         },
                         number: {
                             density: {
                                 enable: true,
-                                area: 800,
+                                value_area: 800,
                             },
                             value: 80,
                         },
@@ -93,7 +93,8 @@ const Introduction = () => {
                             type: "circle",
                         },
                         size: {
-                            value: { min: 1, max: 5 },
+                            random: true,
+                            value: 5,
                         },
                     },
                     detectRetina: true,
