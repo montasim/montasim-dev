@@ -6,16 +6,17 @@ import { CgWebsite } from 'react-icons/cg';
 import { useParams } from 'react-router-dom';
 
 const ProjectDetails = () => {
-    const _projectName = useParams();
-    const [project, setProject] = useState([]);
+    const { _id } = useParams();
+    console.log(_id);
+    const [projectDetails, setProjectDetails] = useState([]);
 
     useEffect(() => {
-        fetch(`https://tools-manufacturer-server.herokuapp.com/products/`)
+        fetch(`https://a-coders-diary.herokuapp.com/project-details/${_id}`)
             .then(res => res.json())
-            .then(data => setProject(data));
-    }, [project]);
+            .then(data => setProjectDetails(data));
+    }, [_id]);
 
-    const { projectCategory, projectName, projectDescription, liveWebsiteLink, clientSideCodeLink, serverSideCodeLink, technologyUsed, projectImg, projectStartDate, projectEndDate } = project;
+    const { projectCategory, projectName, projectDescription, liveWebsiteLink, clientSideCodeLink, serverSideCodeLink, technologyUsed, projectImg, projectStartDate, projectEndDate } = projectDetails;
 
     return (
         <div className='d-block mx-auto my-12 p-12'>
@@ -31,9 +32,8 @@ const ProjectDetails = () => {
                                     className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
                             </div>
                             <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
-                                <div className="px-6 py-12 md:px-12">
+                                <div className="px-4 py-12 lg:px-12">
                                     <h2 className="text-3xl font-bold pb-2">{projectName}</h2>
-                                    <h4 className='text-xl pb-2'> {projectName}</h4>
                                     <p className="text-white mb-6 pb-2">
                                         {projectDescription}
                                     </p>
@@ -53,11 +53,11 @@ const ProjectDetails = () => {
                                                 <BsCode className='text-xl text-secondary mr-3' /> Server Side Code
                                             </a>
                                         </div>
-                                        <div className="w-full lg:w-6/12 xl:w-4/12 mb-4">
-                                            <p className="flex items-center justify-center md:justify-start">
-                                                {technologyUsed}
-                                            </p>
-                                        </div>
+                                    </div>
+                                    <div className="w-full mb-4">
+                                        <p className="flex items-center justify-center md:justify-start">
+                                            Tech: {technologyUsed}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
