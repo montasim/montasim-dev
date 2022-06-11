@@ -5,39 +5,45 @@ import { SiMongodb, SiExpress, SiReact, SiJavascript, SiCplusplus, SiPython, SiH
 
 const About = () => {
     return (
-        <section data-aos="fade-left"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="500" id='about' class="hero min-h-screen bg-gray-900">
-            <div class="hero-content flex-col lg:flex-row justify-between">
-                <img src={professionalPhoto} class="max-w-sm rounded-lg shadow-2xl" />
-                <div className='lg:w-7/12 '>
-                    <h1 class="text-3xl font-bold uppercase">About Me</h1>
-                    <hr className='mt-3' />
-                    <p class="pt-6 text-[20px]">
-                        I am Mohammad Montasim -Al- Mamun Shuvo. I have completed my engineering on Computer Science in 2021. I started my journey with C programming language. I used to learn lots of tech. I wanted to be a web developer.
-                    </p>
-                    <p className='text-[20px] pt-5 pb-12'>I want to make the internet minimal and easy to use. I am a MERN full stack developer. I write poem in JavaScript.</p>
-                    <h6 className='text-2xl font-semibold'>I love to work with those tech:</h6>
-                    <div class="grid grid-flow-col gap-2 text-4xl mt-6">
-                        <a><SiMongodb /></a>
-                        <a><SiExpress /></a>
-                        <a><SiReact /></a>
-                        <a><FaNodeJs /></a>
-                        <a><SiJavascript /></a>
-                        <a><SiCplusplus /></a>
-                        <a><SiPython /></a>
-                        <a><SiHtml5 /></a>
-                        <a><SiCss3 /></a>
-                        <a><SiTailwindcss /></a>
-                        <a><SiBootstrap /></a>
-                        <a><SiTypescript /></a>
-                        <a><SiJsonwebtokens /></a>
-                        <a><SiGit /></a>
-                    </div>
+        <a
+            class="grid grid-cols-1 overflow-hidden rounded-lg group sm:grid-cols-3 mx-4 lg:mx-36"
+            href=""
+        >
+            <div class="relative">
+                <img
+                    class="object-cover w-full h-full"
+                    src={professionalPhoto}
+                    alt=""
+                />
+            </div>
+
+            <div class="p-8 sm:col-span-2">
+                <h5 class="mt-4 font-bold text-3xl">ABOUT ME</h5>
+                <hr className='mt-4' />
+
+                <p class="mt-4 text-xl">
+                    I am Mohammad Montasim -Al- Mamun Shuvo. I have completed my engineering on Computer Science in 2021. I started my journey with C programming language. I used to learn lots of tech. I wanted to be a web developer.
+
+                    I want to make the internet minimal and easy to use. I am a MERN full stack developer. I write poem in JavaScript.
+                </p>
+
+                <p className='mt-8 text-2xl'>I love to work with those tech:</p>
+
+                <div class="flex gap-2 lg:gap-4 mt-6">
+                    <SiMongodb className='text-4xl' />
+                    <SiExpress className='text-4xl' />
+                    <SiReact className='text-4xl' />
+                    <FaNodeJs className='text-4xl' />
+                    <SiJavascript className='text-4xl' />
+                    <SiHtml5 className='text-4xl' />
+                    <SiCss3 className='text-4xl' />
+                    <SiTailwindcss className='text-4xl' />
+                    <SiBootstrap className='text-4xl' />
+                    <SiTypescript className='text-4xl' />
+                    <SiGit className='text-4xl' />
                 </div>
             </div>
-        </section >
+        </a>
     );
 };
 
