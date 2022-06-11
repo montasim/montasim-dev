@@ -57,7 +57,7 @@ const MyProject = ({ project }) => {
                 </dl>
 
                 <div className="flex justify-between items-center mt-6">
-                    <button onClick={() => navigate(`/my-projects/${projectName}`)} className="btn btn-primary btn-sm text-white">Details</button>
+                    <button onClick={() => navigate(`/project-details/${projectName}`)} className="btn btn-primary btn-sm text-white">Details</button>
                     <p className='text-sm'>Type: {projectCategory}</p>
                 </div>
             </div>
