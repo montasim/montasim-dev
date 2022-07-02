@@ -7,9 +7,7 @@ import { SiMongodb, SiHackthebox } from 'react-icons/si';
 
 const Skills = () => {
     return (
-        <section data-aos='fade-down'
-            data-aos-easing='linear'
-            data-aos-duration='1500' id='skills' className='text-white  pt-20'>
+        <section id='skills' className='text-white  pt-20'>
             <div className='max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8'>
                 <div className='w-3/6 mx-auto text-center'>
                     <h2 className='text-3xl font-bold sm:text-4xl'>My Specialty in Web Development</h2>

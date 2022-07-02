@@ -12,9 +12,7 @@ const Projects = () => {
     }, [projects]);
 
     return (
-        <section data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500" id='projects' className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 sm:py-24 min-h-screen">
+        <section id='projects' className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 sm:py-24 min-h-screen">
             <div className="max-w-xl mx-auto text-center">
                 <div className='flex items-center justify-center'>
                     <p className='text-4xl mr-4' />
