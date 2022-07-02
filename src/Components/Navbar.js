@@ -5,14 +5,13 @@ const Navbar = () => {
     const navbarItems = <>
         <li><Link to='/#introduction'>Home</Link></li>
         <li><Link to='/#about'>About</Link></li>
-        <li><Link to='/#skills'>Skills</Link></li>
         <li><Link to='/#projects'>Projects</Link></li>
         <li><Link to='/#contact'>Contact</Link></li>
-        <li><a className='btn btn-primary rounded-full text-white' href='https://a-coders-diary.web.app/' target='_blank' rel='noreferrer'>Blog</a></li>
+        <li><a className='border border-primary rounded-sm' href='https://a-coders-diary.web.app/' target='_blank' rel='noreferrer'>Blog</a></li>
     </>;
 
     return (
-        <div className="navbar sticky top-0 uppercase p-8" >
+        <div className="navbar sticky top-0 bg-[#112240]" >
             <div className="navbar-start" >
                 <div className="dropdown" >
                     <label tabIndex="0" className="btn btn-ghost lg:hidden" >
@@ -24,7 +23,7 @@ const Navbar = () => {
                         }
                     </ul >
                 </div >
-                <Link className="btn btn-ghost text-2xl" to='/' > Montasim Dev</Link >
+                <Link className="btn btn-ghost text-xl" to='/' > Montasim -Al- Mamun</Link >
             </div >
 
             <div className="navbar-center" >
@@ -32,7 +31,7 @@ const Navbar = () => {
             </div >
 
             <div className="navbar-end hidden lg:flex" >
-                <ul className="menu menu-horizontal p-0 font-semibold" >
+                <ul className="menu menu-horizontal p-0 items-center" >
                     {
                         navbarItems
                     }
