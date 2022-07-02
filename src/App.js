@@ -8,6 +8,7 @@ import NotFound from "./Pages/NotFound/NotFound";
 import ProjectDetails from './Pages/ProjectDetails/ProjectDetails';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Social from './Components/Social';
 AOS.init();
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
+      <Social />
       <ToastContainer
         position="top-center"
         theme="dark"

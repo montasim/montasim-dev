@@ -5,6 +5,7 @@ import Contact from './Contact';
 import Projects from './Projects';
 import Skills from './Skills';
 import Summary from './Summary';
+import Social from '../../Components/Social';
 
 const Home = () => {
     return (
