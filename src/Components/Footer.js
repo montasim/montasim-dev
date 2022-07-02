@@ -3,7 +3,7 @@ import { BsLinkedin, BsGithub, BsFacebook } from 'react-icons/bs';
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center p-10 bg-gray-900 text-base-content rounded mt-32" >
+        <footer className="footer footer-center p-10  text-base-content rounded mt-32" >
             <div className="grid grid-flow-col gap-4 text-lg uppercase" >
                 <a href='#about'>About</a>
                 <a href='#services'>Skills</a>

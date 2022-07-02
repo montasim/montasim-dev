@@ -12,7 +12,7 @@ AOS.init();
 
 function App() {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-[#0a192f]">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

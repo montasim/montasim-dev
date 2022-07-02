@@ -36,7 +36,7 @@ const Contact = () => {
     return (
         <section data-aos='fade-down'
             data-aos-easing='linear'
-            data-aos-duration='1500' id='contact' className="hero min-h-screen bg-gray-900" >
+            data-aos-duration='1500' id='contact' className="hero min-h-screen " >
             <div className="hero-content flex-col lg:flex-row-reverse justify-between" >
                 <div className="text-center lg:text-left lg:w-5/12" >
                     <h1 className="text-5xl font-bold" > Get in Touch</h1 >

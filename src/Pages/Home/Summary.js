@@ -4,7 +4,7 @@ const Summary = () => {
     return (
         <aside data-aos='fade-down'
             data-aos-easing='linear'
-            data-aos-duration='1500' className='text-white bg-gray-900 pb-14'>
+            data-aos-duration='1500' className='text-white  pb-14'>
             <div className='max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8'>
                 <ul
                     className='mt-8 border-2 border-white border-opacity-25 divide-y-2 divide-white sm:grid sm:divide-y-0 sm:divide-x-2 sm:border-l-0 sm:border-r-0 divide-opacity-25 sm:grid-cols-3 text-center'

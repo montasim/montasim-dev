@@ -9,8 +9,8 @@ module.exports = {
     themes: [
       {
         montasimDev: {
-          primary: '#2563eb',
-          'base-100': '#111827',
+          primary: '#64ffda',
+          'base-100': '#0a192f',
         },
       }
     ],
