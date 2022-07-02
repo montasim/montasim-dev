@@ -1,6 +1,7 @@
 import React from 'react';
 import professionalPhoto from '../../assets/images/SHUVO Transparent BG.png';
 import { BiRightArrow } from 'react-icons/bi';
+import MobileSocial from '../../Components/MobileSocial';
 
 const About = () => {
     return (
@@ -37,6 +38,8 @@ const About = () => {
                         <small className='flex items-center gap-x-3'><BiRightArrow className='text-primary' />BootStrap</small>
                     </div>
                 </div>
+
+                <MobileSocial />
 
                 <div class="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0">
                     <div class="flex lg:py-12">

@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import { toast } from 'react-toastify';
-import { BsLinkedin, BsGithub, BsFacebook } from 'react-icons/bs';
+import { AiFillLinkedin, AiFillGithub, AiFillFacebook } from 'react-icons/ai';
+import MobileSocial from '../../Components/MobileSocial';
 
 const Contact = () => {
     const form = useRef();
@@ -40,6 +41,8 @@ const Contact = () => {
                 <h3 className="lg:text-4xl md:text-3xl text-2xl text-[#ccd6f6] font-bold my-6" > Get In Touch</h3 >
                 <p> I’m currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p >
             </div>
+
+            <MobileSocial />
 
             <div className="card w-full max-w-xl shadow-2xl bg-gray-800" >
                 <form ref={form} onSubmit={sendEmail} className="card-body" >
