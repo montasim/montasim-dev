@@ -10,6 +10,7 @@ module.exports = {
       {
         montasimDev: {
           primary: '#64ffda',
+          accent: '#ccd6f6',
           'base-100': '#0a192f',
         },
       }
