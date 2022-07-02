@@ -8,7 +8,7 @@ const Social = () => {
                 <BsLinkedin className='text-2xl hover:text-3xl' />
                 <BsGithub className='text-2xl hover:text-3xl' />
                 <BsFacebook className='text-2xl hover:text-3xl' />
-                <div className='bg-white h-32 w-0.5 ml-[10px]'></div>
+                <div className='bg-white h-20 w-0.5 ml-[10px]'></div>
             </div>
         </section>
     );
