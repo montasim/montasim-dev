@@ -10,18 +10,18 @@ const Project = ({ project }) => {
     const { _id, projectCategory, projectName, projectDescription, liveWebsiteLink, clientSideCodeLink, serverSideCodeLink, technologyUsed, projectImg, projectStartDate, projectEndDate } = project;
 
     return (
-        <div className='flex items-center justify-between my-8'>
-            <div className='w-7/12'>
+        <div className='flex flex-col md:flex-row lg:flex-row items-center justify-between gap-y-8 my-8'>
+            <div className='lg:w-7/12 md:w-7/12 w-full'>
                 <img src={projectImg} alt="" />
             </div>
 
-            <div className='w-5/12'>
+            <div className='lg:w-5/12 md:w-5/12 w-full'>
                 <div className='text-right'>
-                    <p className='text-lg text-primary mb-2'>{projectCategory} Project</p>
-                    <h4 className='text-3xl font-bold text-accent'>{projectName}</h4>
+                    <p className='lg:text-lg md:text-lg text-md text-primary mb-2'>{projectCategory} Project</p>
+                    <h4 className='lg:text-3xl md:text-3xl text-2xl font-bold text-accent'>{projectName}</h4>
                 </div>
 
-                <div className='bg-[#112240] p-6 text-right my-8 ml-[-100px]'>
+                <div className='bg-[#112240] p-6 text-right my-8 lg:ml-[-100px] md:lg:ml-[-100px] ml-0'>
                     <p>{projectDescription.slice(0, 180)}</p>
                 </div>
 
