@@ -7,7 +7,7 @@ const Navbar = () => {
         <li><Link to='/#about'>About</Link></li>
         <li><Link to='/#projects'>Projects</Link></li>
         <li><Link to='/#contact'>Contact</Link></li>
-        <li><a className='border border-primary rounded-sm' href='https://a-coders-diary.web.app/' target='_blank' rel='noreferrer'>Blog</a></li>
+        <li><a className='border border-primary rounded-sm hover:bg-primary hover:opacity-70 hover:text-black' href='https://a-coders-diary.web.app/' target='_blank' rel='noreferrer'>Blog</a></li>
     </>;
 
     return (
