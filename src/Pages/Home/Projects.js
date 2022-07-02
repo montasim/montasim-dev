@@ -20,10 +20,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500"
-                className="grid grid-cols-1 gap-8 mt-16 sm:grid-cols-2 lg:grid-cols-3 sm:gap-16"
+            <div className="grid grid-cols-1 gap-8 mt-16 sm:grid-cols-2 lg:grid-cols-3 sm:gap-16"
             >
                 {
                     projects?.slice(-6).map((project, index) => <Project key={index} project={project} />)

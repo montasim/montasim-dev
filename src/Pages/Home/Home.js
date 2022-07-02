@@ -12,7 +12,6 @@ const Home = () => {
             <Introduction />
             <Summary />
             <About />
-            <Skills />
             <Projects />
             <Contact />
         </div>

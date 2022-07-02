@@ -34,7 +34,7 @@ const Contact = () => {
     };
 
     return (
-        <section id='contact' className='grid place-items-center'>
+        <section id='contact' className='grid place-items-center mt-24'>
             <div className='max-w-xl text-center mb-16'>
                 <h6 className='text-lg text-primary'>What’s Next?</h6>
                 <h3 className="text-5xl text-[#ccd6f6] font-bold my-6" > Get In Touch</h3 >
