@@ -13,17 +13,11 @@ const Projects = () => {
 
     return (
         <section id='projects' className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 sm:py-24 min-h-screen">
-            <div className="max-w-xl mx-auto text-center">
-                <div className='flex items-center justify-center'>
-                    <p className='text-4xl mr-4' />
-                    <h2 className="text-4xl font-bold sm:text-3xl text-center uppercase">
-                        My Projects
-                    </h2>
+            <div className="">
+                <div className='flex items-center gap-6'>
+                    <h3 className='text-3xl text-accent font-bold'>Some Things I’ve Built </h3>
+                    <hr className='bg-[#233554] w-80 h-0.5'></hr>
                 </div>
-
-                <p className="max-w-lg mx-auto mt-4 text-gring-offset-warm-gray-500">
-                    Some of my best project is displayed here.
-                </p>
             </div>
 
             <div data-aos="fade-down"
