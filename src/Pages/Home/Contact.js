@@ -34,42 +34,37 @@ const Contact = () => {
     };
 
     return (
-        <section id='contact' className="hero min-h-screen " >
-            <div className="hero-content flex-col lg:flex-row-reverse justify-between" >
-                <div className="text-center lg:text-left lg:w-5/12" >
-                    <h1 className="text-5xl font-bold" > Get in Touch</h1 >
-                    <p className="py-6" > If you have any query want to ask me or want to give me any important message, you can send me a message at any time and yes, I will try to reply to your message in your email.</p >
-                    <div className="flex justify-center lg:justify-start gap-4 text-3xl my-4" >
-                        <a href='https://www.linkedin.com/in/montasim' target='_blank' rel='noreferrer'><BsLinkedin /></a>
-                        <a href='https://github.com/montasim' target='_blank' rel='noreferrer'><BsGithub /></a>
-                        <a href='https://www.facebook.com/montasimmamun/' target='_blank' rel='noreferrer'><BsFacebook /></a>
+        <section id='contact' className='grid place-items-center'>
+            <div className='max-w-xl text-center mb-16'>
+                <h6 className='text-lg text-primary'>What’s Next?</h6>
+                <h3 className="text-5xl font-bold my-5" > Get In Touch</h3 >
+                <p className='text-[#ccd6f6]'> I’m currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p >
+            </div>
+
+            <div className="card w-full max-w-xl shadow-2xl bg-gray-800" >
+                <form ref={form} onSubmit={sendEmail} className="card-body" >
+                    <div className="form-control" >
+                        <label className="label" >
+                            <span className="label-text" > Your Name</span >
+                        </label >
+                        <input name="user_name" type="text" placeholder="your name" className="input input-bordered" />
                     </div >
-                </div >
-                <div className="card flex-shrink-0 w-full max-w-xl shadow-2xl bg-gray-700" >
-                    <form ref={form} onSubmit={sendEmail} className="card-body" >
-                        <div className="form-control" >
-                            <label className="label" >
-                                <span className="label-text" > Your Name</span >
-                            </label >
-                            <input name="user_name" type="text" placeholder="your name" className="input input-bordered" />
-                        </div >
-                        <div className="form-control" >
-                            <label className="label" >
-                                <span className="label-text" > Email</span >
-                            </label >
-                            <input name="user_email" type="text" placeholder="your email" className="input input-bordered" />
-                        </div >
-                        <div className="form-control" >
-                            <label className="label" >
-                                <span className="label-text" > Message</span >
-                            </label >
-                            <textarea name="message" placeholder="your message" className="input input-bordered h-48" />
-                        </div >
-                        <div className="form-control mt-6" >
-                            <button type="submit" value="Send" className="btn btn-primary" > Send Email</button >
-                        </div >
-                    </form >
-                </div >
+                    <div className="form-control" >
+                        <label className="label" >
+                            <span className="label-text" > Email</span >
+                        </label >
+                        <input name="user_email" type="text" placeholder="your email" className="input input-bordered" />
+                    </div >
+                    <div className="form-control" >
+                        <label className="label" >
+                            <span className="label-text" > Message</span >
+                        </label >
+                        <textarea name="message" placeholder="your message" className="input input-bordered h-48" />
+                    </div >
+                    <div className="form-control mt-6" >
+                        <button type="submit" value="Send" className="btn btn-primary" > Say Hello</button >
+                    </div >
+                </form >
             </div >
         </section >
     );
