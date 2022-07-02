@@ -41,7 +41,7 @@ const About = () => {
 
                 <MobileSocial />
 
-                <div class="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0">
+                <div class="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0 mx-auto">
                     <div class="flex lg:py-12">
                         <div class="relative overflow-hidden bg-no-repeat bg-cover w-72" style={{ "backgroundPosition": "50%" }}>
                             <img src={professionalPhoto} alt='montasim avatar' class="w-full mx-auto" />
