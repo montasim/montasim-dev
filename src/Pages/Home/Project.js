@@ -2,63 +2,40 @@ import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { BsCode } from 'react-icons/bs';
 import { CgWebsite } from 'react-icons/cg';
+import { FiGithub, FiExternalLink } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+
 
 const Project = ({ project }) => {
-    const navigate = useNavigate();
     const { _id, projectCategory, projectName, projectDescription, liveWebsiteLink, clientSideCodeLink, serverSideCodeLink, technologyUsed, projectImg, projectStartDate, projectEndDate } = project;
 
     return (
-        <div
-            className="block p-4 rounded-lg shadow-lg hover:shadow-primary/50 border border-gray-800 w-96 mx-auto"
-        >
-            <img
-                alt={projectName + 'image'}
-                src={projectImg}
-                className="object-cover h-56 rounded-md w-full"
-            />
+        <div className='flex items-center justify-between my-8'>
+            <div className='w-7/12'>
+                <img src={projectImg} alt="" />
+            </div>
 
-            <div className="mt-4">
-                <div className='h-44'>
-                    <p className="text-sm text-gray-400 mt-10">Tech: {technologyUsed}</p>
-                    <p className="font-medium text-2xl mt-1">{projectName}</p>
-                    <p className='mt-4'>{projectDescription.length > 200 ? projectDescription?.slice(0, 196) + ' ...' : projectDescription}</p>
+            <div className='w-5/12'>
+                <div className='text-right'>
+                    <p className='text-lg text-primary mb-2'>{projectCategory} Project</p>
+                    <h4 className='text-3xl font-bold text-accent'>{projectName}</h4>
                 </div>
 
-                <dl className="flex items-center mt-20 space-x-8 text-xs">
-                    <a href={liveWebsiteLink} className="sm:inline-flex sm:items-center sm:shrink-0">
-                        <CgWebsite className='text-xl text-secondary' />
+                <div className='bg-[#112240] p-6 text-right my-8 ml-[-100px]'>
+                    <p>{projectDescription.slice(0, 180)}</p>
+                </div>
 
-                        <div className="sm:ml-1 mt-1.5 sm:mt-0">
-                            <dd className="font-medium">
-                                Live Website
-                            </dd>
-                        </div>
-                    </a>
+                <div className='flow-root'>
+                    <div className='flex gap-x-6 float-right mb-10 text-[#a8b2d1]'>
+                        <p>{technologyUsed}</p>
+                    </div>
+                </div>
 
-                    <a href={clientSideCodeLink} className="sm:flex sm:items-center sm:shrink-0">
-                        <BsCode className='text-2xl text-secondary' />
-
-                        <div className="sm:ml-1 mt-1.5 sm:mt-0">
-                            <dd className="font-medium">
-                                Client Code
-                            </dd>
-                        </div>
-                    </a>
-
-                    <a href={serverSideCodeLink} className="sm:inline-flex sm:items-center sm:shrink-0">
-                        <BsCode className='text-2xl text-secondary' />
-
-                        <div className="sm:ml-1 mt-1.5 sm:mt-0">
-                            <dd className="font-medium">
-                                Server Code
-                            </dd>
-                        </div>
-                    </a>
-                </dl>
-
-                <div className="flex justify-between items-center mt-6">
-                    <button onClick={() => navigate(`/project-details/${_id}`)} className="btn btn-primary btn-md text-white">Details</button>
-                    <p className='text-sm'>Type: {projectCategory}</p>
+                <div className='flow-root'>
+                    <div className='grid grid-cols-2 gap-x-6 float-right text-2xl text-accent'>
+                        <a href={clientSideCodeLink} target='_blank' rel="noreferrer" className='hover:text-primary'><FiGithub /></a>
+                        <a href={liveWebsiteLink} target='_blank' rel="noreferrer" className='hover:text-primary'><FiExternalLink /></a>
+                    </div>
                 </div>
             </div>
         </div>
