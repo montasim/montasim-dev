@@ -9,11 +9,12 @@ import ProjectDetails from './Pages/ProjectDetails/ProjectDetails';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Social from './Components/Social';
+import Email from './Components/Email';
 AOS.init();
 
 function App() {
   return (
-    <div className="bg-[#0a192f]">
+    <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -22,6 +23,7 @@ function App() {
       </Routes>
       <Footer />
       <Social />
+      <Email />
       <ToastContainer
         position="top-center"
         theme="dark"
