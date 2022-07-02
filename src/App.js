@@ -10,9 +10,19 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Social from './Components/Social';
 import Email from './Components/Email';
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+
 AOS.init();
 
 function App() {
+  const particlesInit = async (main) => {
+    await loadFull(main);
+  };
+
+  const particlesLoaded = (container) => {
+  };
+
   return (
     <div>
       <Navbar />
