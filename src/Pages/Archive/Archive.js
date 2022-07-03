@@ -8,7 +8,7 @@ const Archive = () => {
         fetch('https://a-coders-diary.herokuapp.com/projects')
             .then(res => res.json())
             .then(data => setProjects(data));
-    }, [projects]);
+    }, []);
 
     return (
         <section className='lg:mx-32 md:mx-20 mx-4 my-32'>

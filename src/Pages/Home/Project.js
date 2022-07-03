@@ -4,6 +4,8 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 const Project = ({ project }) => {
     const { _id, projectCategory, projectName, projectDescription, liveWebsiteLink, clientSideCodeLink, serverSideCodeLink, technologyUsed, projectImg, projectStartDate, projectEndDate } = project;
 
+    console.log(projectImg)
+
     return (
         <div className='flex flex-col md:flex-row lg:flex-row items-center justify-between gap-y-8 my-8'>
             <div className='lg:w-7/12 md:w-7/12 w-full'>

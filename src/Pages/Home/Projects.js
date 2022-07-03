@@ -10,7 +10,7 @@ const Projects = () => {
         fetch('https://a-coders-diary.herokuapp.com/projects')
             .then(res => res.json())
             .then(data => setProjects(data));
-    }, [projects]);
+    }, []);
 
     return (
         <section id='projects' className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 sm:py-24 min-h-screen">
