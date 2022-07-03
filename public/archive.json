@@ -1,0 +1,74 @@
+[
+    {
+        "projectCategory": "Full-Stack",
+        "projectName": "Tools Manufacturer Website",
+        "projectDescription": "Jantrik is a tools manufacturer website. Here user can create an account with email and password. User can also use social media like Google to login. After creating the account user is redirected to the page from where he was taken to login page. User can place order, they can add blogs and reviews. User can delete product from cart. User can update their profile.",
+        "liveWebsiteLink": "https://jantrik-b5cde.web.app/",
+        "clientSideCodeLink": "https://github.com/montasim/manufacturer-website-client",
+        "serverSideCodeLink": "https://github.com/montasim/manufacturer-website-server",
+        "technologyUsed": "React, Express.js MongoDB, Firebase, JWT",
+        "projectImg": "https://i.ibb.co/54qzbtY/Tools-Manufacturer-Website.png",
+        "projectStartDate": "",
+        "projectEndDate": ""
+    },
+    {
+        "projectCategory": "Full-Stack",
+        "projectName": "Warehouse Management System",
+        "projectDescription": "POSDash is an inventory management system website. Here user can create an account with email and password. User can also use social media like Google and GitHub to login. After creating the account user is redirected to the page from where he was taken to login page. User can add items to inventory, they can update items stock. User can delete items from inventory. User can add items to their profile. These items can be viewed from My Items page. User can delete their items.",
+        "liveWebsiteLink": "https://posdash-37746.web.app/",
+        "clientSideCodeLink": "https://github.com/montasim/warehouse-management-client",
+        "serverSideCodeLink": "https://github.com/montasim/warehouse-management-server",
+        "technologyUsed": "React, Express.js MongoDB, Firebase, JWT",
+        "projectImg": "https://i.ibb.co/273Ky0j/Warehouse-Management-System.png",
+        "projectStartDate": "",
+        "projectEndDate": ""
+    },
+    {
+        "projectCategory": "Full-Stack",
+        "projectName": "A Coders Diary",
+        "projectDescription": "This a blog site. We the developer face many problems in our daily life. Every time we need to search Google or, StackOverflow to solve those problems. As human we often forget those problem time to time. Whenever user will find a solution of a prblem he can post the solution in this blog. So, next time it will be easier for him to solve similar problem. This is the motivation for this projects.",
+        "liveWebsiteLink": "https://a-coders-diary.web.app/",
+        "clientSideCodeLink": "https://github.com/montasim/a-coders-diary",
+        "serverSideCodeLink": "https://github.com/montasim/a-coders-diary-server",
+        "technologyUsed": "React, Express.js MongoDB, Firebase",
+        "projectImg": "https://i.ibb.co/nQ78HPG/A-Coders-Diary.png",
+        "projectStartDate": "",
+        "projectEndDate": ""
+    },
+    {
+        "projectCategory": "Full-Stack",
+        "projectName": "Doctors Portal",
+        "projectDescription": "Doctor portal is a web application that allows users to register, login, and view their appointments. The application also allows users to view their profile, update their profile, and view their appointments.",
+        "liveWebsiteLink": "https://doctors-portal-606a5.web.app/",
+        "clientSideCodeLink": "https://github.com/montasim/doctors-portal-client",
+        "serverSideCodeLink": "https://github.com/montasim/doctors-portal-server",
+        "technologyUsed": "React, Express.js MongoDB, Firebase, JWT",
+        "projectImg": "https://i.ibb.co/fF7fMz0/doctors-Portal.png",
+        "projectStartDate": "",
+        "projectEndDate": ""
+    },
+    {
+        "projectCategory": "Full-Stack",
+        "projectName": "Genius Car",
+        "projectDescription": "Genius Car is a web application that allows users to register, login, and get car services.",
+        "liveWebsiteLink": "https://genius-car-services-bea2e.web.app",
+        "clientSideCodeLink": "https://github.com/montasim/genius-car-services",
+        "serverSideCodeLink": "https://github.com/montasim/genius-car-service-server",
+        "technologyUsed": "React, Express.js MongoDB, Firebase, JWT",
+        "projectImg": "https://i.ibb.co/tZpT9Ls/genius-Car.png",
+        "projectStartDate": "",
+        "projectEndDate": ""
+    },
+    {
+        "projectCategory": "Full-Stack",
+        "projectName": "Ema John",
+        "projectDescription": "Ema John is a e-commerce website that allows users to register, login, and view their orders. Users can buy products and checkout their orders.",
+        "liveWebsiteLink": "https://ema-john-montasim.netlify.app/",
+        "clientSideCodeLink": "https://github.com/montasim/ema-john-simple",
+        "serverSideCodeLink": "https://github.com/montasim/ema-john-simple-server",
+        "technologyUsed": "React, Express.js MongoDB, Firebase",
+        "projectImg": "https://i.ibb.co/T40C1hP/emaJohn.png",
+        "projectStartDate": "",
+        "projectEndDate": ""
+    }
+]

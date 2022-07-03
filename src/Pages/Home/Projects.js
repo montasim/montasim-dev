@@ -5,11 +5,18 @@ import Project from './Project';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
+    const [noteWorthyProjects, setNoteWorthyProjects] = useState([]);
 
     useEffect(() => {
         fetch('projectsData.json')
             .then(res => res.json())
             .then(data => setProjects(data));
+    }, []);
+
+    useEffect(() => {
+        fetch('noteWorthyProjects.json')
+            .then(res => res.json())
+            .then(data => setNoteWorthyProjects(data));
     }, []);
 
     return (
@@ -24,7 +31,7 @@ const Projects = () => {
             <div className="grid grid-cols-1 gap-8 mt-8 sm:gap-y-4"
             >
                 {
-                    projects?.slice(-6).map((project) => <Project key={project._id} project={project} />)
+                    projects?.map((project) => <Project key={project._id} project={project} />)
                 }
             </div>
 
@@ -35,7 +42,7 @@ const Projects = () => {
 
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-20'>
                 {
-                    projects?.slice(-6).map((project) => <NoteWorthyProjects key={project._id} project={project} />)
+                    noteWorthyProjects?.map((project) => <NoteWorthyProjects key={project._id} project={project} />)
                 }
             </div>
 

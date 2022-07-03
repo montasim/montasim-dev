@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react';
 import ArchiveRow from './ArchiveRow';
 
 const Archive = () => {
-    const [projects, setProjects] = useState([]);
+    const [archive, setArchive] = useState([]);
 
     useEffect(() => {
-        fetch('https://a-coders-diary.herokuapp.com/projects')
+        fetch('archive.json')
             .then(res => res.json())
-            .then(data => setProjects(data));
+            .then(data => setArchive(data));
     }, []);
 
     return (
@@ -30,7 +30,7 @@ const Archive = () => {
                     </thead>
                     <tbody>
                         {
-                            projects?.map((project, index) => <ArchiveRow key={project._id} project={project} index={index} />)
+                            archive?.map((project, index) => <ArchiveRow key={project._id} project={project} index={index} />)
                         }
                     </tbody>
                 </table>
