@@ -1,6 +1,6 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import { BiMenuAltLeft } from 'react-icons/bi';
+import { BiMenuAltRight } from 'react-icons/bi';
 
 const Navbar = () => {
     /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
@@ -27,9 +27,25 @@ const Navbar = () => {
     return (
         <div id='navbarHide' className="navbar fixed top-0 bg-[#112240] opacity-95" >
             <div className="navbar-start" >
-                <div className="dropdown" >
+                <Link className="btn border-0 lg:text-xl md:text-xl text-lg text-primary uppercase lg:ml-6 md:ml-2 ml-2 hover:bg-[#112240]" to='/' > Montasim -Al- Mamun</Link >
+            </div >
+
+            <div className="navbar-center" >
+
+            </div >
+
+            <div className='navbar-end'>
+                <div className="hidden lg:flex" >
+                    <ul className="menu menu-horizontal items-center mr-12" >
+                        {
+                            navbarItems
+                        }
+                    </ul >
+                </div >
+
+                <div className="block md:hidden lg:hidden dropdown" >
                     <label tabIndex="0" className="btn btn-ghost lg:hidden" >
-                        <BiMenuAltLeft className='text-4xl' />
+                        <BiMenuAltRight className='text-4xl' />
                     </label >
                     <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 shadow rounded-box w-52 bg-[#112240]" >
                         {
@@ -37,20 +53,7 @@ const Navbar = () => {
                         }
                     </ul >
                 </div >
-                <Link className="btn border-0 lg:text-xl md:text-xl text-md text-primary uppercase lg:ml-6 md:ml-2 ml-0 hover:bg-[#112240]" to='/' > Montasim -Al- Mamun</Link >
-            </div >
-
-            <div className="navbar-center" >
-
-            </div >
-
-            <div className="navbar-end hidden lg:flex" >
-                <ul className="menu menu-horizontal items-center mr-10" >
-                    {
-                        navbarItems
-                    }
-                </ul >
-            </div >
+            </div>
         </div >
     );
 };
