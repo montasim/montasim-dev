@@ -1,5 +1,4 @@
 import React from 'react';
-import { BsLinkedin, BsGithub, BsFacebook } from 'react-icons/bs';
 
 const Footer = () => {
     return (
