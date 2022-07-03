@@ -45,17 +45,17 @@ const About = () => {
                     <img src={professionalPhoto} alt="" />
                 </div> */}
 
-                <div class="w-64 md:w-64 lg:w-94 lg:mt-20 md:mt-16 mt-10 lg:mb-0 rounded-lg relative block group">
-                    <span class="absolute inset-0 border-2 border-primary border-solid rounded-lg"></span>
+                <div className="w-64 md:w-64 lg:w-94 lg:mt-20 md:mt-16 mt-10 lg:mb-0 rounded-lg relative block group">
+                    <span className="absolute inset-0 border-2 border-primary border-solid rounded-lg"></span>
 
                     <div
-                        class="relative flex items-end h-full transition-transform transform bg-accent -translate-x-5 -translate-y-5 rounded-lg"
+                        className="relative flex items-end h-full transition-transform transform bg-accent -translate-x-5 -translate-y-5 rounded-lg"
                     >
-                        <div class="transition-opacity opacity-0 absolute">
+                        <div className="transition-opacity opacity-0 absolute">
 
                         </div>
 
-                        <div class="transition-opacity opacity-100 relative">
+                        <div className="transition-opacity opacity-100 relative">
                             <img src={professionalPhoto} alt="" />
                         </div>
                     </div>

@@ -17,8 +17,8 @@ const Archive = () => {
                 <h6 className='mt-5 text-primary'>A big list of things I’ve worked on</h6>
             </div>
 
-            <div class="overflow-x-auto mt-20 text-lg">
-                <table class="table w-full">
+            <div className="overflow-x-auto mt-20 text-lg">
+                <table className="table w-full">
                     <thead>
                         <tr>
                             <th>SN</th>

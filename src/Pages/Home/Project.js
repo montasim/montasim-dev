@@ -7,7 +7,7 @@ const Project = ({ project }) => {
     return (
         <div className='flex flex-col md:flex-row lg:flex-row items-center justify-between gap-y-8 my-8'>
             <div className='lg:w-7/12 md:w-7/12 w-full'>
-                <img src={projectImg} alt="" />
+                <img src={projectImg} alt={projectName + 'home page'} />
             </div>
 
             <div className='lg:w-5/12 md:w-5/12 w-full'>
