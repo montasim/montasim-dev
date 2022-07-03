@@ -12,7 +12,7 @@ const About = () => {
             </div>
 
             <div className='flex flex-col md:flex-row lg:flex-row justify-between items-center md:items-start lg:items-start gap-y-8'>
-                <div className='mt-12 text-justify text-[18px] lg:w-7/12 md:w-6/12 w-full'>
+                <div className='mt-12 text-justify lg:w-7/12 md:w-6/12 w-full'>
                     <p>
                         Hello! My name is Mohammad Montasim -Al- Mamun Shuvo and I enjoy creating things that live on the internet. My interest in web development started back in 2017 when I was doing a university project — turns out this project taught me a lot about HTML & CSS!
                     </p>
@@ -29,7 +29,7 @@ const About = () => {
                         Here are a few technologies I’ve been working with recently:
                     </p>
 
-                    <div className='grid grid-cols-2 gap-3 w-96 mb-10 md:mb-0 lg:mb-0'>
+                    <div className='grid grid-cols-2 gap-2 w-96 mb-10 md:mb-0 lg:mb-0'>
                         <small className='flex items-center gap-x-3'><BiRightArrow className='text-primary' /> JavaScript (ES6+)</small>
                         <small className='flex items-center gap-x-3'><BiRightArrow className='text-primary' />React JS</small>
                         <small className='flex items-center gap-x-3'><BiRightArrow className='text-primary' />Node.js</small>

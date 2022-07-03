@@ -7,7 +7,7 @@ const Projects = () => {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        fetch('https://a-coders-diary.herokuapp.com/projects')
+        fetch('projectsData.json')
             .then(res => res.json())
             .then(data => setProjects(data));
     }, []);
