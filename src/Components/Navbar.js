@@ -21,7 +21,7 @@ const Navbar = () => {
         <li><Link to='/#projects'>Projects</Link></li>
         <li><Link to='/#contact'>Contact</Link></li>
         <li><a href='https://a-coders-diary.web.app/' target='_blank' rel='noreferrer'>Blog</a></li>
-        <li className='ml-2'><a className='btn btn-sm rounded pb-6 hover:bg-primary text-primary hover:opacity-70 hover:text-black' href='https://drive.google.com/file/d/1sR4CxyIYw1uIesJHWaERKDGOBwfOVUcH/view?usp=sharing' target='_blank' rel='noreferrer'>Resume</a></li>
+        <li className='ml-2'><a className='btn btn-sm rounded pb-6 bg-primary hover:bg-base-100 text-black hover:text-accent hover:border hover:border-primary' href='https://drive.google.com/file/d/1sR4CxyIYw1uIesJHWaERKDGOBwfOVUcH/view?usp=sharing' target='_blank' rel='noreferrer'>Resume</a></li>
     </>;
 
     return (
