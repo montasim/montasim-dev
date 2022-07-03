@@ -9,7 +9,7 @@ const Project = ({ project }) => {
             <img
                 alt={projectName + ' home page'}
                 src={projectImg}
-                className="object-cover rounded-md w-8/12"
+                className="object-cover rounded-md lg:w-8/12 md:w-7/12 w-full"
             />
 
             <div className='lg:w-5/12 md:w-5/12 w-full'>
