@@ -1,10 +1,5 @@
 import React from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
-import { BsCode } from 'react-icons/bs';
-import { CgWebsite } from 'react-icons/cg';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
-
 
 const Project = ({ project }) => {
     const { _id, projectCategory, projectName, projectDescription, liveWebsiteLink, clientSideCodeLink, serverSideCodeLink, technologyUsed, projectImg, projectStartDate, projectEndDate } = project;

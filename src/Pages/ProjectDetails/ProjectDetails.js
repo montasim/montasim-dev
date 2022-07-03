@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { AiOutlineDollar } from 'react-icons/ai';
-import { GrTechnology } from 'react-icons/gr';
 import { BsCode } from 'react-icons/bs';
 import { CgWebsite } from 'react-icons/cg';
 import { useParams } from 'react-router-dom';

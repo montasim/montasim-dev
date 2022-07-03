@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import { toast } from 'react-toastify';
-import { AiFillLinkedin, AiFillGithub, AiFillFacebook } from 'react-icons/ai';
 import MobileSocial from '../../Components/MobileSocial';
 
 const Contact = () => {
