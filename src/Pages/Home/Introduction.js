@@ -2,7 +2,7 @@ import React from 'react';
 
 const Introduction = () => {
     return (
-        <section>
+        <section className='lg:mt-8 md:mt-6 mt-6'>
             <div className="hero-content min-h-screen flex-col lg:flex-row-reverse" id='introduction' >
                 <div>
                     <p className='mb-2 text-[18px] text-[#64ffda]'>Hi, my name is</p>
