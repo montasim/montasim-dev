@@ -7,7 +7,7 @@
         "clientSideCodeLink": "https://github.com/montasim/manufacturer-website-client",
         "serverSideCodeLink": "https://github.com/montasim/manufacturer-website-server",
         "technologyUsed": "React, Express.js MongoDB, Firebase, JWT",
-        "projectImg": "../src/assets/images/Tools Manufacturer Website.png",
+        "projectImg": "https://i.ibb.co/54qzbtY/Tools-Manufacturer-Website.png",
         "projectStartDate": "",
         "projectEndDate": ""
     },
@@ -19,7 +19,7 @@
         "clientSideCodeLink": "https://github.com/montasim/warehouse-management-client",
         "serverSideCodeLink": "https://github.com/montasim/warehouse-management-server",
         "technologyUsed": "React, Express.js MongoDB, Firebase, JWT",
-        "projectImg": "../src/assets/images/Warehouse Management System.png",
+        "projectImg": "https://i.ibb.co/273Ky0j/Warehouse-Management-System.png",
         "projectStartDate": "",
         "projectEndDate": ""
     },
@@ -31,7 +31,7 @@
         "clientSideCodeLink": "https://github.com/montasim/a-coders-diary",
         "serverSideCodeLink": "https://github.com/montasim/a-coders-diary-server",
         "technologyUsed": "React, Express.js MongoDB, Firebase",
-        "projectImg": "../src/assets/images/A Coders Diary.png",
+        "projectImg": "https://i.ibb.co/nQ78HPG/A-Coders-Diary.png",
         "projectStartDate": "",
         "projectEndDate": ""
     }
