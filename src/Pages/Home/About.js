@@ -41,7 +41,7 @@ const About = () => {
                     <MobileSocial />
                 </div>
 
-                <div className="w-64 md:w-64 lg:w-94 rounded-lg relative">
+                <div className="w-64 md:w-64 lg:w-94 rounded-lg relative mt-16 md:mt-0 lg:mt-0">
                     <span className="absolute inset-0 border-2 border-primary border-solid rounded-lg"></span>
 
                     <div
