@@ -43,11 +43,11 @@ const Navbar = () => {
                     </ul >
                 </div >
 
-                <div className="block md:hidden lg:hidden dropdown" >
+                <div className="block md:hidden lg:hidden dropdown dropdown-end" >
                     <label tabIndex="0" className="btn btn-ghost lg:hidden" >
                         <BiMenuAltRight className='text-4xl' />
                     </label >
-                    <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 shadow rounded-box w-52 bg-[#112240]" >
+                    <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-3 shadow rounded-box w-52 bg-[#112240]" >
                         {
                             navbarItems
                         }
