@@ -27,13 +27,13 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [mo
 
 ## 🚀 Building and Running for Production
 
-1. Generate a full static production build
+1. Generate production build
 
    ```sh
    npm run build
    ```
 
-1. Preview the site as it will appear once deployed
+2. Preview the site once deployed
 
    ```sh
    firebase deploy
