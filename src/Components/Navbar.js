@@ -25,7 +25,7 @@ const Navbar = () => {
                         }
                     </ul >
                 </div >
-                <Link className="btn border-0 lg:text-xl md:text-xl text-md text-primary uppercase lg:ml-10 md:ml-6 ml-0 hover:bg-[#112240]" to='/' > Montasim -Al- Mamun</Link >
+                <Link className="btn border-0 lg:text-xl md:text-xl text-md text-primary uppercase lg:ml-6 md:ml-2 ml-0 hover:bg-[#112240]" to='/' > Montasim -Al- Mamun</Link >
             </div >
 
             <div className="navbar-center" >
