@@ -10,6 +10,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Social from './Components/Social';
 import Email from './Components/Email';
+import Archive from './Pages/Archive/Archive';
 
 AOS.init();
 
@@ -19,7 +20,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/project-details/:_id" element={<ProjectDetails />} />
+        <Route path="project-details/:_id" element={<ProjectDetails />} />
+        <Route path="archive" element={<Archive />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

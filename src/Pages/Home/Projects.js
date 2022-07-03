@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import NoteWorthyProjects from './NoteWorthyProjects';
 import Project from './Project';
 
@@ -29,7 +30,7 @@ const Projects = () => {
 
             <div className='text-center mt-28'>
                 <h2 className='text-3xl font-bold text-accent mb-6'>Other Noteworthy Projects</h2>
-                <p className='text-lg text-primary'>view the archive</p>
+                <Link to='/archive' className='text-lg text-primary hover:underline transition duration-700 ease-in-out'>view the archive</Link>
             </div>
 
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 my-20'>
