@@ -13,7 +13,7 @@ const Projects = () => {
     }, []);
 
     return (
-        <section id='projects' className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 sm:py-24 min-h-screen">
+        <section id='projects' className="min-h-screen">
             <div className="">
                 <div className='flex items-center gap-6'>
                     <h3 className='lg:text-3xl md:text-3xl text-2xl text-accent font-bold'>Some Things I’ve Built </h3>
@@ -28,7 +28,7 @@ const Projects = () => {
                 }
             </div>
 
-            <div className='text-center mt-28'>
+            <div className='text-center mt-14'>
                 <h2 className='text-3xl font-bold text-accent mb-6'>Other Noteworthy Projects</h2>
                 <Link to='/archive' className='text-lg text-primary hover:underline transition duration-700 ease-in-out'>view the archive</Link>
             </div>
@@ -39,7 +39,7 @@ const Projects = () => {
                 }
             </div>
 
-            <div className='flex justify-center items-center my-10'>
+            <div className='flex justify-center items-center mt-10'>
                 <button className="btn rounded-xs border-primary text-primary px-10 capitalize text-md mt-14 hover:bg-primary hover:opacity-70 hover:text-black" > Show All</button >
             </div>
         </section>

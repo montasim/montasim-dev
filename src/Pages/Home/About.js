@@ -5,7 +5,7 @@ import MobileSocial from '../../Components/MobileSocial';
 
 const About = () => {
     return (
-        <section className='mb-16' id='about'>
+        <section className='mb-24' id='about'>
             <div className='flex items-center gap-6'>
                 <h3 className='lg:text-3xl md:text-3xl text-2xl text-accent font-bold'>About Me </h3>
                 <hr className='bg-[#233554] lg:w-80 md:w-64 w-40 h-0.5'></hr>
@@ -29,7 +29,7 @@ const About = () => {
                         Here are a few technologies I’ve been working with recently:
                     </p>
 
-                    <div className='grid grid-cols-2 gap-6 w-96 mb-12 md:mb-0 lg:mb-0'>
+                    <div className='grid grid-cols-2 gap-6 w-96 mb-6 md:mb-0 lg:mb-0'>
                         <small className='flex items-center gap-x-3'><BiRightArrow className='text-primary' /> JavaScript (ES6+)</small>
                         <small className='flex items-center gap-x-3'><BiRightArrow className='text-primary' />React JS</small>
                         <small className='flex items-center gap-x-3'><BiRightArrow className='text-primary' />Node.js</small>
@@ -41,7 +41,7 @@ const About = () => {
                     <MobileSocial />
                 </div>
 
-                <div className="w-64 md:w-64 lg:w-94 lg:mt-16 md:mt-16 mt-10 lg:mb-0 rounded-lg relative">
+                <div className="w-64 md:w-64 lg:w-94 rounded-lg relative">
                     <span className="absolute inset-0 border-2 border-primary border-solid rounded-lg"></span>
 
                     <div

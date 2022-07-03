@@ -2,7 +2,7 @@ import React from 'react';
 
 const Summary = () => {
     return (
-        <section className='text-white mb-40'>
+        <section className='text-white mb-32'>
             <div className='max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8'>
                 <ul
                     className='mt-8 border-2 border-white border-opacity-25 divide-y-2 divide-white sm:grid sm:divide-y-0 sm:divide-x-2 sm:border-l-0 sm:border-r-0 divide-opacity-25 sm:grid-cols-3 text-center'
