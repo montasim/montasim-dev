@@ -29,7 +29,7 @@ const About = () => {
                         Here are a few technologies I’ve been working with recently:
                     </p>
 
-                    <div className='grid grid-cols-2 gap-6 w-96 mb-6 md:mb-0 lg:mb-0'>
+                    <div className='grid grid-cols-2 gap-3 w-96 mb-10 md:mb-0 lg:mb-0'>
                         <small className='flex items-center gap-x-3'><BiRightArrow className='text-primary' /> JavaScript (ES6+)</small>
                         <small className='flex items-center gap-x-3'><BiRightArrow className='text-primary' />React JS</small>
                         <small className='flex items-center gap-x-3'><BiRightArrow className='text-primary' />Node.js</small>
