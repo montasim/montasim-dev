@@ -2,8 +2,8 @@ import React from 'react';
 
 const Introduction = () => {
     return (
-        <section className='lg:mt-8 md:mt-6 mt-6'>
-            <div className="hero-content min-h-screen flex-col lg:flex-row-reverse" id='introduction' >
+        <section className='lg:mt-28 md:mt-28 mt-24 mb-28'>
+            <div className="hero-content flex-col lg:flex-row-reverse" id='introduction' >
                 <div>
                     <p className='mb-2 text-[18px] text-[#64ffda]'>Hi, my name is</p>
                     <h1 className="lg:text-[66px] md:text-[46px] text-[36px] font-bold text-[#ccd6f6]">Montasim -Al- Mamun.</h1>
