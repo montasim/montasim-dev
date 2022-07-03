@@ -33,7 +33,7 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [mo
    npm run build
    ```
 
-2. Preview the site once deployed
+2. Preview the site once deployed (using Firebase)
 
    ```sh
    firebase deploy
