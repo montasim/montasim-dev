@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 import MobileSocial from '../../Components/MobileSocial';
 
@@ -9,27 +9,11 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('Gmail', 'template_q3cc4jr', form.current, `${process.env.React_App_YOUR_PUBLIC_KEY}`)
+        emailjs.sendForm(`${process.env.REACT_APP_YOUR_SERVICE_ID}`, `${process.env.REACT_APP_YOUR_TEMPLATE_ID}`, form.current, `${process.env.REACT_APP_YOUR_PUBLIC_KEY}`)
             .then((result) => {
-                toast.success(`Email send successfully`, {
-                    position: "top-center",
-                    autoClose: 5000,
-                    hideProgressBar: false,
-                    closeOnClick: true,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                });
+                toast.success(`Email send successfully`);
             }, (error) => {
-                toast.error(`Error: ${error}`, {
-                    position: "top-center",
-                    autoClose: 5000,
-                    hideProgressBar: false,
-                    closeOnClick: true,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                });
+                toast.error(`Email sent unsuccessful. Contact montasimmamun@gmail.com`);
             });
     };
 
@@ -43,28 +27,28 @@ const Contact = () => {
 
             <MobileSocial />
 
-            <div className="card w-full max-w-xl shadow-2xl bg-gray-800" >
-                <form ref={form} onSubmit={sendEmail} className="card-body" >
+            <div className="w-full max-w-xl shadow-2xl bg-gray-800 lg:rounded-xl md:rounded:lg rounded-md lg:p-8 md:p-6 p-4">
+                <form ref={form} onSubmit={sendEmail}>
                     <div className="form-control" >
                         <label className="label" >
                             <span className="label-text" > Your Name</span >
                         </label >
-                        <input name="user_name" type="text" placeholder="your name" className="input input-bordered" />
+                        <input name="user_name" type="text" placeholder="your name" required className="input input-bordered" />
                     </div >
                     <div className="form-control" >
                         <label className="label" >
                             <span className="label-text" > Email</span >
                         </label >
-                        <input name="user_email" type="text" placeholder="your email" className="input input-bordered" />
+                        <input name="user_email" type="text" placeholder="your email" required className="input input-bordered" />
                     </div >
                     <div className="form-control" >
                         <label className="label" >
                             <span className="label-text" > Message</span >
                         </label >
-                        <textarea name="message" placeholder="your message" className="input input-bordered h-48" />
+                        <textarea name="message" placeholder="your message" required className="input input-bordered h-48" />
                     </div >
                     <div className="form-control mt-6" >
-                        <button type="submit" value="Send" className="btn btn-primary" > Say Hello</button >
+                        <button className="btn rounded-xs border-primary text-primary px-10 capitalize text-md hover:bg-primary hover:opacity-70 hover:text-black" type="submit" value="Send"> Say Hello</button >
                     </div >
                 </form >
             </div >
