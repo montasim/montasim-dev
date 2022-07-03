@@ -1,15 +1,6 @@
 import React from 'react';
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
 
 const Introduction = () => {
-    const particlesInit = async (main) => {
-        await loadFull(main);
-    };
-
-    const particlesLoaded = (container) => {
-    };
-
     return (
         <section>
             <div className="hero-content min-h-screen flex-col lg:flex-row-reverse" id='introduction' >
