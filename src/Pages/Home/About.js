@@ -12,7 +12,7 @@ const About = () => {
             </div>
 
             <div className='flex flex-col md:flex-row lg:flex-row justify-between items-center md:items-start lg:items-start gap-y-8'>
-                <div className='mt-12 text-justify lg:w-7/12 md:w-6/12 w-full'>
+                <div className='mt-12 text-justify text-[18px] lg:w-7/12 md:w-6/12 w-full'>
                     <p>
                         Hello! My name is Mohammad Montasim -Al- Mamun Shuvo and I enjoy creating things that live on the internet. My interest in web development started back in 2017 when I was doing a university project — turns out this project taught me a lot about HTML & CSS!
                     </p>
@@ -29,7 +29,7 @@ const About = () => {
                         Here are a few technologies I’ve been working with recently:
                     </p>
 
-                    <div className='grid grid-cols-2 gap-6 w-96'>
+                    <div className='grid grid-cols-2 gap-6 w-96 mb-12 md:mb-0 lg:mb-0'>
                         <small className='flex items-center gap-x-3'><BiRightArrow className='text-primary' /> JavaScript (ES6+)</small>
                         <small className='flex items-center gap-x-3'><BiRightArrow className='text-primary' />React JS</small>
                         <small className='flex items-center gap-x-3'><BiRightArrow className='text-primary' />Node.js</small>
@@ -37,27 +37,17 @@ const About = () => {
                         <small className='flex items-center gap-x-3'><BiRightArrow className='text-primary' />Tailwind CSS</small>
                         <small className='flex items-center gap-x-3'><BiRightArrow className='text-primary' />BootStrap</small>
                     </div>
+
+                    <MobileSocial />
                 </div>
 
-                <MobileSocial />
-
-                {/* <div className='w-64 md:w-64 lg:w-94 mb-12 lg:mb-0 bg-accent rounded-lg'>
-                    <img src={professionalPhoto} alt="" />
-                </div> */}
-
-                <div className="w-64 md:w-64 lg:w-94 lg:mt-20 md:mt-16 mt-10 lg:mb-0 rounded-lg relative block group">
+                <div className="w-64 md:w-64 lg:w-94 lg:mt-16 md:mt-16 mt-10 lg:mb-0 rounded-lg relative">
                     <span className="absolute inset-0 border-2 border-primary border-solid rounded-lg"></span>
 
                     <div
-                        className="relative flex items-end h-full transition-transform transform bg-accent -translate-x-5 -translate-y-5 rounded-lg"
+                        className="transition-transform transform bg-accent -translate-x-5 -translate-y-5 rounded-lg"
                     >
-                        <div className="transition-opacity opacity-0 absolute">
-
-                        </div>
-
-                        <div className="transition-opacity opacity-100 relative">
-                            <img src={professionalPhoto} alt="" />
-                        </div>
+                        <img src={professionalPhoto} alt="" />
                     </div>
                 </div>
             </div>
