@@ -33,10 +33,14 @@ const Projects = () => {
                 <Link to='/archive' className='text-lg text-primary hover:underline transition duration-700 ease-in-out'>view the archive</Link>
             </div>
 
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 my-20'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-20'>
                 {
                     projects?.slice(-6).map((project) => <NoteWorthyProjects key={project._id} project={project} />)
                 }
+            </div>
+
+            <div className='flex justify-center items-center my-10'>
+                <button className="btn rounded-xs border-primary text-primary px-10 capitalize text-md mt-14 hover:bg-primary hover:opacity-70 hover:text-black" > Show All</button >
             </div>
         </section>
     );
