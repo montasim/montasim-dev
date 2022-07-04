@@ -7,7 +7,7 @@ import Summary from './Summary';
 
 const Home = () => {
     return (
-        <div className='lg:mx-40 md:mx-20 mx-4 text-[#8892b0]'>
+        <div className='lg:mx-40 md:mx-20 mx-4 text-octonary'>
             <Introduction />
             <Summary />
             <About />

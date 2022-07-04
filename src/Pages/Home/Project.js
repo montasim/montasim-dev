@@ -18,12 +18,12 @@ const Project = ({ project }) => {
                     <h4 className='lg:text-2.5xl md:text-2.5xl text-2xl font-bold text-accent'>{projectName}</h4>
                 </div>
 
-                <div className='bg-[#112240] p-6 text-right my-6 lg:ml-[-100px] md:lg:ml-[-100px] ml-0 rounded'>
+                <div className='bg-tertiary p-6 text-right my-6 lg:ml-[-100px] md:lg:ml-[-100px] ml-0 rounded'>
                     <p>{projectDescription.slice(0, 140)}</p>
                 </div>
 
                 <div className='flow-root'>
-                    <div className='flex gap-x-6 float-right mb-8 text-[#a8b2d1]'>
+                    <div className='flex gap-x-6 float-right mb-8 text-septenary'>
                         <p>{technologyUsed}</p>
                     </div>
                 </div>
