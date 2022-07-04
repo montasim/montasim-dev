@@ -12,6 +12,8 @@ const Contact = () => {
         emailjs.sendForm(`${process.env.REACT_APP_YOUR_SERVICE_ID}`, `${process.env.REACT_APP_YOUR_TEMPLATE_ID}`, form.current, `${process.env.REACT_APP_YOUR_PUBLIC_KEY}`)
             .then((result) => {
                 toast.success(`Email send successfully`);
+
+                document.getElementById('contact-form').reset();
             }, (error) => {
                 toast.error(`Email sent unsuccessful. Contact montasimmamun@gmail.com`);
             });
@@ -28,7 +30,7 @@ const Contact = () => {
             <MobileSocial />
 
             <div className="w-full max-w-xl shadow-2xl bg-gray-800 lg:rounded-xl md:rounded:lg rounded-md lg:p-8 md:p-6 p-4">
-                <form ref={form} onSubmit={sendEmail}>
+                <form id='contact-form' ref={form} onSubmit={sendEmail}>
                     <div className="form-control" >
                         <label className="label" >
                             <span className="label-text" > Your Name</span >
