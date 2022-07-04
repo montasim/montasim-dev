@@ -23,7 +23,7 @@ const Contact = () => {
         <section id='contact' className='grid place-items-center mt-24'>
             <div className='max-w-xl text-center mb-16'>
                 <h6 className='lg:text-lg md:text-lg text-md text-primary'>What’s Next?</h6>
-                <h3 className="lg:text-4xl md:text-3xl text-2xl text-senary font-bold my-6" > Get In Touch</h3 >
+                <h3 className="lg:text-4xl md:text-3xl text-2xl text-[#ccd6f6] font-bold my-6" > Get In Touch</h3 >
                 <p> I’m currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p >
             </div>
 

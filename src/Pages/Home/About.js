@@ -8,7 +8,7 @@ const About = () => {
         <section className='mb-24' id='about'>
             <div className='flex items-center gap-6'>
                 <h3 className='lg:text-3xl md:text-3xl text-2xl text-accent font-bold'>About Me </h3>
-                <hr className='bg-quaternary lg:w-80 md:w-64 w-40 h-0.5'></hr>
+                <hr className='bg-[#233554] lg:w-80 md:w-64 w-40 h-0.5'></hr>
             </div>
 
             <div className='flex flex-col md:flex-row lg:flex-row justify-between items-center md:items-start lg:items-start gap-y-8'>
