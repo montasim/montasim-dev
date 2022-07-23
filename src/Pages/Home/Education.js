@@ -3,7 +3,7 @@ import { BiRightArrow } from 'react-icons/bi';
 
 const Education = () => {
     return (
-        <section className='mb-24' id='about'>
+        <section className='mb-24' id='education'>
             <div className='mb-12'>
                 <div className='flex items-center gap-6'>
                     <h3 className='lg:text-3xl md:text-3xl text-2xl text-accent font-bold'>Education </h3>
