@@ -18,7 +18,7 @@ const About = () => {
                     </p>
 
                     <p className='my-5'>
-                        Fast-forward to today, and I’ve had the privilege of working at an organization, as a Management Information System Officer (MIS). My main focus these days is building accessible, inclusive products and digital experiences using MERN Stack.
+                        Fast-forward to today, and I’ve had the privilege of working at an My MedicalHUB International Ltd., as a Junior Frontend Developer. My main focus these days is building accessible, inclusive products and digital experiences using MERN Stack.
                     </p>
 
                     <p>
