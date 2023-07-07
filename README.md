@@ -1,9 +1,26 @@
-<h1 align="center">
-  montasim-dev.web.app 
-</h1>
-<p align="center">
+<img loading="lazy" src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=24&duration=1&pause=1&color=EB008B&center=true&vCenter=true&repeat=false&width=300&height=40&lines=montasim-dev.web.app" alt="montasim-dev.web.app" />
+
+<!-- repository summary badges start -->
+<div>
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/montasim/montasim-dev?&labelColor=EB008B&color=00B8B5">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/montasim/montasim-dev?&labelColor=EB008B&color=00B8B5">
+    <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/montasim/montasim-dev?&labelColor=EB008B&color=00B8B5">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/montasim/montasim-dev?&labelColor=EB008B&color=00B8B5">
+    <img alt="GitHub repo file count" src="https://img.shields.io/github/directory-file-count/montasim/montasim-dev?&labelColor=EB008B&color=00B8B5">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/montasim/montasim-dev?&labelColor=EB008B&color=00B8B5">
+    <img alt="GitHub" src="https://img.shields.io/github/license/montasim/montasim-dev?&labelColor=EB008B&color=00B8B5">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/montasim/montasim-dev?&labelColor=EB008B&color=00B8B5">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/montasim/montasim-dev?&labelColor=EB008B&color=00B8B5">
+</div>
+<!-- repository summary badges end -->
+
+<br/>
+
+<p>
   My personal website - <a href="https://montasim-dev.web.app/" target="_blank">montasim-dev.web.app</a> built with <a href="https://reactjs.org/" target="_blank">React</a> and hosted with <a href="https://firebase.google.com/" target="_blank">Firebase.</a>
 </p>
+
+<br/>
 
 ![demo](./src/assets/images/websitePreview.PNG)
 
@@ -53,60 +70,64 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [mo
 | Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
 
 
-<br>
-<br>
+<br/>
+<br/>
+<br/>
+<br/>
 
-<!-- connect with me start -->
-<div align="center"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=1&pause=1000&repeat=false&width=410&lines=%F0%9F%93%AA+%F0%9D%97%99%F0%9D%97%98%F0%9D%97%98%F0%9D%97%9F+%F0%9D%97%99%F0%9D%97%A5%F0%9D%97%98%F0%9D%97%98+%F0%9D%97%A7%F0%9D%97%A2+%F0%9D%97%96%F0%9D%97%A2%F0%9D%97%A1%F0%9D%97%A7%F0%9D%97%94%F0%9D%97%96%F0%9D%97%A7+%F0%9D%97%A0%F0%9D%97%98+%F0%9D%97%94%F0%9D%97%A1%F0%9D%97%AC%F0%9D%97%A7%F0%9D%97%9C%F0%9D%97%A0%F0%9D%97%98" alt="Typing SVG" />
+<!-- feel free to contact me text start -->
+<div> 
+    <img loading="lazy" src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=21&duration=1&pause=1&color=00B8B5&center=true&vCenter=true&repeat=false&width=370&height=21&lines=FEEL+FREE+TO+CONTACT+ME+ANYTIME" alt="feel free to contact me svg" />
 </div>
+<!-- feel free to contact me text end -->
 
-<br>
+<br/>
 
 <!-- social media links start -->
-<table align="center">
-  <thead align="center">
-      <tr>
-          <th>
-              <a href="https://www.linkedin.com/in/montasim">
-                  <img alt="linkedin icon" src="https://cdn.simpleicons.org/linkedin" width="35px">
-              </a>
-          </th>
-          <th>
-              <a href="https://www.github.com/montasim">
-                  <img alt="github icon" src="https://cdn.simpleicons.org/github/white" width="35px">
-              </a>
-          </th>
-          <th>
-              <a href="https://stackoverflow.com/users/20348607/montasim">
-                  <img alt="github icon" src="https://cdn.simpleicons.org/stackoverflow" width="35px">
-              </a>
-          </th>
-          <th>
-              <a href="https://montasim-dev.web.app/">
-                  <img alt="web icon" src="https://cdn.simpleicons.org/googlechrome" width="35px">
-              </a>
-          </th>
-          <th>
-              <a href="mailto:montasimmamun@gmail.com">
-                  <img alt="gmail icon" src="https://cdn.simpleicons.org/gmail" width="35px">
-              </a>
-          </th>
-          <th>
-              <a href="https://www.facebook.com/montasimmamun/">
-                  <img alt="facebook icon" src="https://cdn.simpleicons.org/facebook" width="35px">
-              </a>
-          </th>
-          <th>
-              <a href="https://twitter.com/montasimmamun">
-                  <img alt="facebook icon" src="https://cdn.simpleicons.org/twitter" width="35px">
-              </a>
-          </th>
-      </tr>
-  </thead>
+<table>
+    <thead align="center">
+        <tr>
+            <th>
+                <a href="https://www.linkedin.com/in/montasim">
+                    <img alt="Linkedin icon" src="https://cdn.simpleicons.org/linkedin" width="35px">
+                </a>
+            </th>
+            <th>
+                <a href="https://www.github.com/montasim">
+                    <img alt="GitHub icon" src="https://cdn.simpleicons.org/github/white" width="35px">
+                </a>
+            </th>
+            <th>
+                <a href="https://stackoverflow.com/users/20348607/montasim">
+                    <img alt="StackOverflow icon" src="https://cdn.simpleicons.org/stackoverflow" width="35px">
+                </a>
+            </th>
+            <th>
+                <a href="https://montasim-dev.web.app/">
+                    <img alt="web icon" src="https://cdn.simpleicons.org/googlechrome" width="35px">
+                </a>
+            </th>
+            <th>
+                <a href="mailto:montasimmamun@gmail.com">
+                    <img alt="Gmail icon" src="https://cdn.simpleicons.org/gmail" width="35px">
+                </a>
+            </th>
+            <th>
+                <a href="https://www.facebook.com/montasimmamun/">
+                    <img alt="Facebook icon" src="https://cdn.simpleicons.org/facebook" width="35px">
+                </a>
+            </th>
+            <th>
+                <a href="https://twitter.com/montasimmamun">
+                    <img alt="Twitter icon" src="https://cdn.simpleicons.org/twitter" width="35px">
+                </a>
+            </th>
+        </tr>
+    </thead>
 </table>
 <!-- social media links end -->
 <!-- connect with me end -->
 
-<br>
-<br>
+<br/>
+<br/>
+<br/>
